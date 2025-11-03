@@ -1,52 +1,40 @@
-package org.Darwyi.practice2.models.usermodels;
+package org.Darwyi.practice2.models;
 
-import org.Darwyi.practice2.models.Course;
-import org.Darwyi.practice2.models.Syllabus;
-import org.Darwyi.practice2.models.UserRole;
-import org.jetbrains.annotations.Nullable;
+import org.Darwyi.practice2.Storage;
 
 import java.net.URL;
-import java.util.List;
 import java.util.Random;
 
 public class User {
-    protected int Id;
+    protected Long Id;
     protected URL pfp;
     protected String FirstName;
     protected String LastName;
     private String Email;
     private String Password;
+    private String Bio;
     private UserRole Role;
 
-    public User(String FirstName, String LastName, String Email, String password, UserRole Role) {
-        this.Id = new Random().nextInt();
+    public User(String FirstName, String LastName, String Email, String password, String bio, UserRole Role) {
+        this.Id =  Math.abs(new Random().nextLong());
         this.FirstName = FirstName;
         this.LastName = LastName;
         this.Email = Email;
         this.Password = password;
+        this.Bio = bio;
         this.Role = Role;
+        Storage.Users.add(this);
     }
 
-    public User RegisterTeacher(
-            @Nullable List<Course> course,
-            @Nullable List<Syllabus> syllabus,
-            @Nullable List<Student> students,
-            String Bio, int Strength) {
-        return new Teacher(this.FirstName, this.LastName, this.Email, this.Password, course, syllabus, students, Bio, Strength);
+    public void AddCourse(Course course) throws Exception {
+        System.out.println("AddCourse(), User");
     }
 
-    public User RegisterStudent(
-            String Bio,
-            @Nullable Course courses,
-            @Nullable Syllabus syllabus){
-        return new Student(this.FirstName, this.LastName, this.Email, this.Password, Bio, courses, syllabus);
-    }
-
-    public int getId() {
+    public Long getId() {
         return Id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         Id = id;
     }
 
@@ -102,6 +90,14 @@ public class User {
         Role = role;
     }
 
+    public String getBio() {
+        return Bio;
+    }
+
+    public void setBio(String bio) {
+        Bio = bio;
+    }
+
     public boolean isStudent() {
         return Role == UserRole.STUDENT;
     }
@@ -110,9 +106,10 @@ public class User {
     public String toString() {
         return "User{" +
                 "Id=" + getId() +
-                ", FirstName='" + getFullName() + '\'' +
+                ", FullName='" + getFullName() + '\'' +
                 ", Email='" + getEmail() + '\'' +
                 ", Password='" + getPassword() + '\'' +
+                ", Bio='" + getBio() + '\'' +
                 ", Role=" + getRole() +
                 '}';
     }

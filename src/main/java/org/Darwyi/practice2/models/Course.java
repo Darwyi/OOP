@@ -1,38 +1,51 @@
 package org.Darwyi.practice2.models;
 
+import org.Darwyi.practice2.models.tasks.Task;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.Random;
 
 public class Course {
-    private int Id;
+    private Long Id;
     private String Name;
     private String Description;
-    private String Category;
-    private String Level;
-    private String Language;
-    private double Price;
+    private Long Teacher;
     @Nullable
-    private String Teacher;
+    private List<Task> ListTasks;
 
-    public Course(String Name, String Description, String Category,
-                  String Level, String Language, double Price, @Nullable String teacher) {
-        this.Id = new Random().nextInt();
+    public Course(String Name, String Description, Long teacher, @Nullable List<Task> listTasks) {
+        this.Id = Math.abs(new Random().nextLong());
         this.Name = Name;
         this.Description = Description;
-        this.Category = Category;
-        this.Level = Level;
-        this.Language = Language;
-        this.Price = Price;
         this.Teacher = teacher;
-
+        this.ListTasks = listTasks;
     }
 
-    public int getId() {
+    public List<Task> getListTasks() {
+        return ListTasks;
+    }
+
+    public void setListTasks(List<Task> listTasks) {
+        ListTasks = listTasks;
+    }
+
+    public List<Long> getListTasksIds() {
+        if (ListTasks == null) {
+            return null;
+        }
+        List<Long> taskIds = new java.util.ArrayList<>();
+        for (Task t : ListTasks) {
+            taskIds.add(t.getId());
+        }
+        return taskIds;
+    }
+
+    public Long getId() {
         return Id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         Id = id;
     }
 
@@ -52,43 +65,10 @@ public class Course {
         Description = description;
     }
 
-    public String getCategory() {
-        return Category;
-    }
-
-    public void setCategory(String category) {
-        Category = category;
-    }
-
-    public String getLevel() {
-        return Level;
-    }
-
-    public void setLevel(String level) {
-        Level = level;
-    }
-
-    public String getLanguage() {
-        return Language;
-    }
-
-    public void setLanguage(String language) {
-        Language = language;
-    }
-
-    public double getPrice() {
-        return Price;
-    }
-
-    public void setPrice(double price) {
-        Price = price;
-    }
-
-    public String getTeacher() {
+    public Long getTeacher() {
         return Teacher;
     }
-
-    public void setTeacher(String teacher) {
+    public void setTeacher(Long teacher) {
         Teacher = teacher;
     }
 
@@ -98,11 +78,8 @@ public class Course {
                 "Id=" + getId() +
                 ", Name='" + getName() + '\'' +
                 ", Description='" + getDescription() + '\'' +
-                ", Category='" + getCategory() + '\'' +
-                ", Level='" + getLevel() + '\'' +
-                ", Language='" + getLanguage() + '\'' +
-                ", Price=" + getPrice() +
                 ", Teacher='" + getTeacher() + '\'' +
+                ", ListTasks=" + getListTasksIds() +
                 '}';
     }
 }

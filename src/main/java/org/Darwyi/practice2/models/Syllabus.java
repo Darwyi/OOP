@@ -5,21 +5,21 @@ import java.util.List;
 import java.util.Random;
 
 public class Syllabus {
-    private static int Id;
+    private Long Id;
     private List<Course> Courses;
     private double size;
 
     public Syllabus(List<Course> Courses) {
-        Id = new Random().nextInt();
+        Id =  Math.abs(new Random().nextLong());
         this.Courses = Courses;
         this.size = Courses.size();
     }
 
-    public static int getId() {
+    public Long getId() {
         return Id;
     }
 
-    public static void setId(int id) {
+    public void setId(Long id) {
         Id = id;
     }
 
@@ -27,8 +27,8 @@ public class Syllabus {
         return Courses.get(id);
     }
 
-    public List<Integer> getCourses() {
-        List<Integer> CourseIDS = new ArrayList<>();
+    public List<Long> getCourses() {
+        List<Long> CourseIDS = new ArrayList<>();
         for (Course course : Courses) {
             CourseIDS.add(course.getId());
         }
