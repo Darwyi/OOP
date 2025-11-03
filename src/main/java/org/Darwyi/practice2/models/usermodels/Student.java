@@ -1,6 +1,8 @@
-package org.Darwyi.practice2.models;
+package org.Darwyi.practice2.models.usermodels;
 
 import org.Darwyi.practice2.Storage;
+import org.Darwyi.practice2.models.Course;
+import org.Darwyi.practice2.models.Syllabus;
 import org.Darwyi.practice2.models.tasks.Task;
 import org.jetbrains.annotations.Nullable;
 
@@ -9,16 +11,17 @@ import java.util.List;
 
 public class Student extends User {
     @Nullable
-    public List<Course> ListCourses;
+    private List<Course> ListCourses;
     @Nullable
-    public Syllabus syllabus;
+    private Syllabus syllabus;
+    @Nullable
+    private List<Task> tasks;
 
     public Student(String firstName, String lastName, String email, String password, String bio,
                    @Nullable List<Course> course, @Nullable Syllabus Syllabus) {
         super(firstName, lastName, email, password, bio, UserRole.STUDENT);
         this.ListCourses = course;
         this.syllabus = Syllabus;
-        Storage.Students.add(this);
     }
 
     public @Nullable List<Course> getCourses() { return ListCourses; }
@@ -29,6 +32,25 @@ public class Student extends User {
 
     public @Nullable Syllabus getSyllabus() {
         return this.syllabus;
+    }
+
+    public @Nullable List<Task> getTasks() {
+        return tasks;
+    }
+
+    public List<Long> getTaskIds() {
+        if (this.tasks == null) {
+            return null;
+        }
+        List<Long> taskIds = new ArrayList<>();
+        for (Task t : this.tasks) {
+            taskIds.add(t.getId());
+        }
+        return taskIds;
+    }
+
+    public void setTasks(@Nullable List<Task> tasks) {
+        this.tasks = tasks;
     }
 
     public void markTask(boolean state, Long taskId) {
@@ -42,12 +64,12 @@ public class Student extends User {
     }
 
     @Override
-    public void AddCourse(Course course) throws Exception {
+    public void joinCourse(Long courseId) throws Exception {
+        super.joinCourse(courseId);
         if (this.ListCourses == null) {
             throw new Exception("Student has no courses list initialized.");
         }
-        this.ListCourses.add(course);
-        Storage.Courses.add(course);
+        ListCourses.add(Storage.getCourseById(courseId));
     }
 
     public List<Long> getSyllabusCourses() {
@@ -63,6 +85,7 @@ public class Student extends User {
         }
         List<Long> CourseIDS = new ArrayList<>();
         for (Course c : this.ListCourses) {
+
             CourseIDS.add(c.getId());
         }
 
@@ -81,6 +104,8 @@ public class Student extends User {
                 ", FullName='" + getFullName() + '\'' +
                 ", Course=" + getCoursesIds() +
                 ", Syllabus=" + getSyllabusCourses() +
+                ", Tasks=" + getTaskIds() +
+                ", Role=" + getRole() +
                 '}';
     }
 }

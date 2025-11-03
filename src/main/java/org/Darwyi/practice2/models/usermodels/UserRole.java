@@ -1,4 +1,4 @@
-package org.Darwyi.practice2.models;
+package org.Darwyi.practice2.models.usermodels;
 
 public enum UserRole {
     ADMIN,

@@ -1,7 +1,8 @@
 package org.Darwyi.practice2.models.tasks;
 
 import org.Darwyi.practice2.Storage;
-import org.Darwyi.practice2.models.Student;
+import org.Darwyi.practice2.models.usermodels.User;
+import org.Darwyi.practice2.models.usermodels.UserRole;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +23,7 @@ public class Task {
         this.description = description;
         this.attachment = attachment;
         this.type = type;
+        Storage.Tasks.add(this);
     }
 
     public int getMark() {
@@ -85,9 +87,12 @@ public class Task {
 
     public void useAgain() {}
 
-    public Map<Long, Integer> getResults() {
+    public Map<Long, Integer> getResults() throws Exception {
         Map <Long, Integer> results = new HashMap<>();
-        for (Student s : Storage.Students ) {
+        for (User s : Storage.Users ) {
+            if (s.getRole() != UserRole.STUDENT) {
+                throw new Exception("Only students have results for tasks");
+            }
             if (isCompleted()){
                 results.put(s.getId(), this.getMark());
             }
@@ -96,7 +101,8 @@ public class Task {
     }
 
     public Integer getResultsForStudent(Long id) {
-        if (Storage.Students.contains(Storage.getStudentById(id))) {
+        User student = Storage.getUserById(id);
+        if (student != null && student.getRole() == UserRole.STUDENT) {
             if (isCompleted()){
                 return this.getMark();
             } else {

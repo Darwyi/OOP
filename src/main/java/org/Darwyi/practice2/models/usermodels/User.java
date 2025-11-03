@@ -1,6 +1,7 @@
-package org.Darwyi.practice2.models;
+package org.Darwyi.practice2.models.usermodels;
 
 import org.Darwyi.practice2.Storage;
+import org.Darwyi.practice2.models.Course;
 
 import java.net.URL;
 import java.util.Random;
@@ -26,8 +27,18 @@ public class User {
         Storage.Users.add(this);
     }
 
-    public void AddCourse(Course course) throws Exception {
-        System.out.println("AddCourse(), User");
+    public void addCourse(Course model) throws Exception {
+        model.setTeacher(getId());
+        this.Role = UserRole.TEACHER;
+        Storage.Courses.add(model);
+    }
+
+    public void joinCourse(Long courseId) throws Exception {
+        Course choosenCourse = Storage.getCourseById(courseId);
+        if (choosenCourse != null) {
+            this.Role = UserRole.STUDENT;
+            choosenCourse.addToStudentsList(getId());
+        }
     }
 
     public Long getId() {

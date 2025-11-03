@@ -3,8 +3,9 @@ package org.Darwyi.practice2.models.tasks;
 class Topic extends Task {
     private boolean isLecture;
 
-    Topic(String topic, String description, String attachment) {
+    Topic(String topic, String description, String attachment, boolean isLecture) {
         super(topic, description, attachment, TaskType.TOPIC);
+        this.isLecture = isLecture;
     }
 
     public boolean isLecture() {

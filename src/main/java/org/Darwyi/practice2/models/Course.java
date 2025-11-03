@@ -3,6 +3,7 @@ package org.Darwyi.practice2.models;
 import org.Darwyi.practice2.models.tasks.Task;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -11,15 +12,17 @@ public class Course {
     private String Name;
     private String Description;
     private Long Teacher;
+    private List<Long> ListStudents;
     @Nullable
     private List<Task> ListTasks;
 
-    public Course(String Name, String Description, Long teacher, @Nullable List<Task> listTasks) {
+    public Course(String Name, String Description, Long teacher) {
         this.Id = Math.abs(new Random().nextLong());
         this.Name = Name;
         this.Description = Description;
         this.Teacher = teacher;
-        this.ListTasks = listTasks;
+        this.ListStudents = new ArrayList<>();
+        this.ListTasks = new ArrayList<>();
     }
 
     public List<Task> getListTasks() {
@@ -70,6 +73,27 @@ public class Course {
     }
     public void setTeacher(Long teacher) {
         Teacher = teacher;
+    }
+
+    public void addToStudentsList(Long id) throws Exception {
+        if (ListStudents == null) {
+            throw new Exception("Students list is not initialized");
+        }
+        ListStudents.add(id);
+    }
+
+    public void addTask(Task taskModel) {
+        if (this.ListTasks != null) {
+            this.ListTasks.add(taskModel);
+        }
+    }
+
+    public List<Long> getListStudents() {
+        return ListStudents;
+    }
+
+    public void setListStudents(List<Long> listStudents) {
+        ListStudents = listStudents;
     }
 
     @Override
