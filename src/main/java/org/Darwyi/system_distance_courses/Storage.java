@@ -1,10 +1,9 @@
-package org.Darwyi.practice2;
+package org.Darwyi.system_distance_courses;
 
-import org.Darwyi.practice2.models.*;
-import org.Darwyi.practice2.models.tasks.Task;
-import org.Darwyi.practice2.models.usermodels.Student;
-import org.Darwyi.practice2.models.usermodels.Teacher;
-import org.Darwyi.practice2.models.usermodels.User;
+import org.Darwyi.system_distance_courses.models.Course;
+import org.Darwyi.system_distance_courses.models.Syllabus;
+import org.Darwyi.system_distance_courses.models.tasks.Task;
+import org.Darwyi.system_distance_courses.models.usermodels.User;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,8 @@
-package org.Darwyi.practice2.models.tasks;
+package org.Darwyi.system_distance_courses.models.tasks;
 
-import org.Darwyi.practice2.Storage;
-import org.Darwyi.practice2.models.usermodels.User;
-import org.Darwyi.practice2.models.usermodels.UserRole;
+import org.Darwyi.system_distance_courses.Storage;
+import org.Darwyi.system_distance_courses.models.usermodels.User;
+import org.Darwyi.system_distance_courses.models.usermodels.UserRole;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,9 +13,20 @@ public class Task {
     protected String topic;
     protected String description;
     protected String attachment;
-    private int mark;
-    private boolean Completed;
+    private Double mark;
+    private Double maxMark;
+    private Boolean Completed;
     private TaskType type;
+
+    public Task(String topic, String description, String attachment, TaskType type, Double maxMark) {
+        id = Math.abs(new Random().nextLong());
+        this.topic = topic;
+        this.description = description;
+        this.attachment = attachment;
+        this.type = type;
+        this.maxMark = maxMark;
+        Storage.Tasks.add(this);
+    }
 
     public Task(String topic, String description, String attachment, TaskType type) {
         id = Math.abs(new Random().nextLong());
@@ -26,11 +37,11 @@ public class Task {
         Storage.Tasks.add(this);
     }
 
-    public int getMark() {
+    public Double getMark() {
         return mark;
     }
 
-    public void setMark(int mark) {
+    public void setMark(Double mark) {
         this.mark = mark;
     }
 
@@ -42,7 +53,7 @@ public class Task {
         this.attachment = attachment;
     }
 
-    public boolean isCompleted() {
+    public Boolean isCompleted() {
         if (mark > 0) {
             Completed = true;
         }
@@ -81,14 +92,22 @@ public class Task {
         return type;
     }
 
+    public Double getMaxMark() {
+        return maxMark;
+    }
+
+    public void setMaxMark(Double maxMark) {
+        this.maxMark = maxMark;
+    }
+
     public void setType(TaskType type) {
         this.type = type;
     }
 
     public void useAgain() {}
 
-    public Map<Long, Integer> getResults() throws Exception {
-        Map <Long, Integer> results = new HashMap<>();
+    public Map<Long, Double> getResults() throws Exception {
+        Map <Long, Double> results = new HashMap<>();
         for (User s : Storage.Users ) {
             if (s.getRole() != UserRole.STUDENT) {
                 throw new Exception("Only students have results for tasks");
@@ -100,7 +119,7 @@ public class Task {
         return results;
     }
 
-    public Integer getResultsForStudent(Long id) {
+    public Double getResultsForStudent(Long id) {
         User student = Storage.getUserById(id);
         if (student != null && student.getRole() == UserRole.STUDENT) {
             if (isCompleted()){

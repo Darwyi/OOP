@@ -1,4 +1,4 @@
-package org.Darwyi.practice2.models.usermodels;
+package org.Darwyi.system_distance_courses.models.usermodels;
 
 public enum UserRole {
     ADMIN,

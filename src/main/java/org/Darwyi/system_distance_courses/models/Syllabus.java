@@ -1,4 +1,4 @@
-package org.Darwyi.practice2.models;
+package org.Darwyi.system_distance_courses.models;
 
 import java.util.ArrayList;
 import java.util.List;

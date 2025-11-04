@@ -1,7 +1,7 @@
-package org.Darwyi.practice2.models.usermodels;
+package org.Darwyi.system_distance_courses.models.usermodels;
 
-import org.Darwyi.practice2.Storage;
-import org.Darwyi.practice2.models.Course;
+import org.Darwyi.system_distance_courses.Storage;
+import org.Darwyi.system_distance_courses.models.Course;
 
 import java.net.URL;
 import java.util.Random;
@@ -39,6 +39,10 @@ public class User {
             this.Role = UserRole.STUDENT;
             choosenCourse.addToStudentsList(getId());
         }
+    }
+
+    public static User getUserById(Long userId) {
+        return Storage.getUserById(userId);
     }
 
     public Long getId() {

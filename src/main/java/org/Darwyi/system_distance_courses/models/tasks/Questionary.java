@@ -1,4 +1,4 @@
-package org.Darwyi.practice2.models.tasks;
+package org.Darwyi.system_distance_courses.models.tasks;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 class Questionary extends Task {
     private List<Question> ListQuestions;
 
-    public Questionary(String topic, String description, String attachment, List<Question> listQuestions) {
-        super(topic, description, attachment, TaskType.QUESTION);
-        this.ListQuestions = listQuestions;
+    public Questionary(String topic, String description, String attachment, Double maxMark) {
+        super(topic, description, attachment, TaskType.QUESTION, maxMark);
+        this.ListQuestions = new ArrayList<>();
 
     }
 
@@ -25,6 +25,10 @@ class Questionary extends Task {
             ids.add(question.getId());
         }
         return ids;
+    }
+
+    public void addQuestion(Question question) {
+        this.ListQuestions.add(question);
     }
 
     public void setListQuestions(List<Question> listQuestions) {

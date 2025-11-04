@@ -1,12 +1,13 @@
-package org.Darwyi.practice2;
+package org.Darwyi.system_distance_courses;
 
-import org.Darwyi.practice2.models.*;
-import org.Darwyi.practice2.models.tasks.Task;
-import org.Darwyi.practice2.models.tasks.TaskFactory;
-import org.Darwyi.practice2.models.usermodels.Student;
-import org.Darwyi.practice2.models.usermodels.Teacher;
-import org.Darwyi.practice2.models.usermodels.User;
-import org.Darwyi.practice2.models.usermodels.UserRole;
+import org.Darwyi.system_distance_courses.models.Course;
+import org.Darwyi.system_distance_courses.models.Syllabus;
+import org.Darwyi.system_distance_courses.models.tasks.Task;
+import org.Darwyi.system_distance_courses.models.tasks.TaskFactory;
+import org.Darwyi.system_distance_courses.models.usermodels.Student;
+import org.Darwyi.system_distance_courses.models.usermodels.Teacher;
+import org.Darwyi.system_distance_courses.models.usermodels.User;
+import org.Darwyi.system_distance_courses.models.usermodels.UserRole;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,11 +28,11 @@ public class Main {
 
         Syllabus syllabus = new Syllabus(List.of(course, course1, course2));
 
-        Student student = new Student("Jane", "Doe", "email", "password", "Bio", new ArrayList<>(), syllabus);
+        Student student = new Student("Jane", "Doe", "email", "password", "Bio", syllabus);
 
-        Task newTask = TaskFactory.createTest("Test 1", "Description of Test 1", "new attachment", "url");
+        Task newTask = TaskFactory.createTest("Test 1", "Description of Test 1", "new attachment", "url", 100D);
         Task newTask1 = TaskFactory.createTopic("Lecture 1", "Description of lecture 1", "new attachment", true);
-        Task newTask2 = TaskFactory.createQuestionary("Questionary 1", "Description of questionary 1", "new attachment", new ArrayList<>());
+        Task newTask2 = TaskFactory.createQuestionary("Questionary 1", "Description of questionary 1", "new attachment", 100D);
 
         try {
             teacher.addCourse(course);

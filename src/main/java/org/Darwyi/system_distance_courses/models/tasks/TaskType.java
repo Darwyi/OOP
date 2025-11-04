@@ -1,4 +1,4 @@
-package org.Darwyi.practice2.models.tasks;
+package org.Darwyi.system_distance_courses.models.tasks;
 
 public enum TaskType {
     TOPIC,

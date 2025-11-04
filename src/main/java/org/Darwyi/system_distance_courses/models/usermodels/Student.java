@@ -1,9 +1,9 @@
-package org.Darwyi.practice2.models.usermodels;
+package org.Darwyi.system_distance_courses.models.usermodels;
 
-import org.Darwyi.practice2.Storage;
-import org.Darwyi.practice2.models.Course;
-import org.Darwyi.practice2.models.Syllabus;
-import org.Darwyi.practice2.models.tasks.Task;
+import org.Darwyi.system_distance_courses.Storage;
+import org.Darwyi.system_distance_courses.models.Course;
+import org.Darwyi.system_distance_courses.models.Syllabus;
+import org.Darwyi.system_distance_courses.models.tasks.Task;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
@@ -17,10 +17,9 @@ public class Student extends User {
     @Nullable
     private List<Task> tasks;
 
-    public Student(String firstName, String lastName, String email, String password, String bio,
-                   @Nullable List<Course> course, @Nullable Syllabus Syllabus) {
+    public Student(String firstName, String lastName, String email, String password, String bio, @Nullable Syllabus Syllabus) {
         super(firstName, lastName, email, password, bio, UserRole.STUDENT);
-        this.ListCourses = course;
+        this.ListCourses = new ArrayList<>();
         this.syllabus = Syllabus;
     }
 

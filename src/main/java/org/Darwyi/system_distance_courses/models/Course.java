@@ -1,6 +1,6 @@
-package org.Darwyi.practice2.models;
+package org.Darwyi.system_distance_courses.models;
 
-import org.Darwyi.practice2.models.tasks.Task;
+import org.Darwyi.system_distance_courses.models.tasks.Task;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;

@@ -1,9 +1,9 @@
-package org.Darwyi.practice2.models.usermodels;
+package org.Darwyi.system_distance_courses.models.usermodels;
 
-import org.Darwyi.practice2.Storage;
-import org.Darwyi.practice2.models.Course;
-import org.Darwyi.practice2.models.Syllabus;
-import org.Darwyi.practice2.models.tasks.Task;
+import org.Darwyi.system_distance_courses.Storage;
+import org.Darwyi.system_distance_courses.models.Course;
+import org.Darwyi.system_distance_courses.models.Syllabus;
+import org.Darwyi.system_distance_courses.models.tasks.Task;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
