@@ -1,14 +1,10 @@
 package org.Darwyi.system_distance_courses.models.tasks;
 
 import org.Darwyi.system_distance_courses.Storage;
-import org.Darwyi.system_distance_courses.models.usermodels.User;
-import org.Darwyi.system_distance_courses.models.usermodels.UserRole;
-
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-public class Task {
+public abstract class Task {
     protected Long id;
     protected String topic;
     protected String description;
@@ -106,30 +102,9 @@ public class Task {
 
     public void useAgain() {}
 
-    public Map<Long, Double> getResults() throws Exception {
-        Map <Long, Double> results = new HashMap<>();
-        for (User s : Storage.Users ) {
-            if (s.getRole() != UserRole.STUDENT) {
-                throw new Exception("Only students have results for tasks");
-            }
-            if (isCompleted()){
-                results.put(s.getId(), this.getMark());
-            }
-        }
-        return results;
-    }
+    public abstract Map<Long, Double> getResults() throws Exception;
 
-    public Double getResultsForStudent(Long id) {
-        User student = Storage.getUserById(id);
-        if (student != null && student.getRole() == UserRole.STUDENT) {
-            if (isCompleted()){
-                return this.getMark();
-            } else {
-                return null;
-            }
-        }
-        return null;
-    }
+    public abstract Double getResultsForStudent(Long id) throws Exception;
 
     @Override
     public String toString() {

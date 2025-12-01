@@ -1,7 +1,12 @@
 package org.Darwyi.system_distance_courses.models.tasks;
 
+import org.Darwyi.system_distance_courses.Storage;
+import org.Darwyi.system_distance_courses.models.usermodels.User;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 class Questionary extends Task {
     private List<Question> ListQuestions;
@@ -14,6 +19,35 @@ class Questionary extends Task {
 
     public List<Question> getListQuestions() {
         return ListQuestions;
+    }
+
+    @Override
+    public Map<Long, Double> getResults() throws Exception {
+        Map<Long, Double> results = new HashMap<>();
+        for (User user : Storage.Users) {
+            if (user != null || user.isStudent()) {
+                if (user.getTaskList().contains(this)) {
+                    results.put(user.getId(), this.getResultsForStudent(user.getId()));
+                }
+            }
+        }
+        return results;
+    }
+
+    @Override
+    public Double getResultsForStudent(Long id) throws Exception {
+        User student = Storage.getUserById(id);
+        if (student == null || !student.isStudent()) {
+            throw new Exception("Only students have results for tasks");
+        }
+        List<Task> studentTasks = student.getTaskList();
+        if (!studentTasks.contains(this) || !this.isCompleted()) {
+            throw new Exception("Task is not completed yet or not assigned to the student");
+        }
+        if (studentTasks.contains(this)) {
+            return this.getMark();
+        }
+        return null;
     }
 
     public List<Long> getListQuestionsIds() {

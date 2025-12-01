@@ -21,6 +21,7 @@ public class Student extends User {
         super(firstName, lastName, email, password, bio, UserRole.STUDENT);
         this.ListCourses = new ArrayList<>();
         this.syllabus = Syllabus;
+        this.tasks = new ArrayList<>();
     }
 
     public @Nullable List<Course> getCourses() { return ListCourses; }
@@ -33,7 +34,8 @@ public class Student extends User {
         return this.syllabus;
     }
 
-    public @Nullable List<Task> getTasks() {
+    @Override
+    public @Nullable List<Task> getTaskList() {
         return tasks;
     }
 
@@ -52,23 +54,35 @@ public class Student extends User {
         this.tasks = tasks;
     }
 
-    public void markTask(boolean state, Long taskId) {
+    @Override
+    public void markTask(boolean state, Long taskId, Double mark, Long userId) throws Exception {
         Task task = Storage.getTaskById(taskId);
-        if (Storage.Tasks.contains(task)) {
+        if (task != null && tasks.contains(task)) {
             Task newTask = Storage.getTaskById(taskId);
+            tasks.remove(task);
             Storage.Tasks.remove(task);
             newTask.setCompleted(state);
+            tasks.add(newTask);
             Storage.Tasks.add(newTask);
         }
     }
 
     @Override
-    public void joinCourse(Long courseId) throws Exception {
-        super.joinCourse(courseId);
+    public void addCourse(Course model) throws Exception {
+        Course choosenCourse = Storage.getCourseById(model.getId());
+        if (choosenCourse != null) {
+            this.Role = UserRole.STUDENT;
+            choosenCourse.addToStudentsList(getId());
+        }
         if (this.ListCourses == null) {
             throw new Exception("Student has no courses list initialized.");
         }
-        ListCourses.add(Storage.getCourseById(courseId));
+        ListCourses.add(Storage.getCourseById(model.getId()));
+    }
+
+    @Override
+    public void addCourseTask(Long courseId, Task taskModel) throws Exception {
+        throw new Exception("Students cannot add tasks to courses.");
     }
 
     public List<Long> getSyllabusCourses() {

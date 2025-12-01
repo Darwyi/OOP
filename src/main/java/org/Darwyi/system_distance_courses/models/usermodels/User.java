@@ -2,11 +2,13 @@ package org.Darwyi.system_distance_courses.models.usermodels;
 
 import org.Darwyi.system_distance_courses.Storage;
 import org.Darwyi.system_distance_courses.models.Course;
+import org.Darwyi.system_distance_courses.models.tasks.Task;
 
 import java.net.URL;
+import java.util.List;
 import java.util.Random;
 
-public class User {
+public abstract class User {
     protected Long Id;
     protected URL pfp;
     protected String FirstName;
@@ -14,7 +16,7 @@ public class User {
     private String Email;
     private String Password;
     private String Bio;
-    private UserRole Role;
+    protected UserRole Role;
 
     public User(String FirstName, String LastName, String Email, String password, String bio, UserRole Role) {
         this.Id =  Math.abs(new Random().nextLong());
@@ -27,19 +29,13 @@ public class User {
         Storage.Users.add(this);
     }
 
-    public void addCourse(Course model) throws Exception {
-        model.setTeacher(getId());
-        this.Role = UserRole.TEACHER;
-        Storage.Courses.add(model);
-    }
+    public abstract void addCourse(Course model) throws Exception;
 
-    public void joinCourse(Long courseId) throws Exception {
-        Course choosenCourse = Storage.getCourseById(courseId);
-        if (choosenCourse != null) {
-            this.Role = UserRole.STUDENT;
-            choosenCourse.addToStudentsList(getId());
-        }
-    }
+    public abstract void addCourseTask(Long courseId, Task taskModel) throws Exception;
+
+    public abstract void markTask(boolean state, Long taskId, Double mark, Long userId) throws Exception;
+
+    public abstract List<Task> getTaskList() throws Exception;
 
     public static User getUserById(Long userId) {
         return Storage.getUserById(userId);

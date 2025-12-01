@@ -30,19 +30,53 @@ public class Teacher extends User {
 
     @Override
     public void addCourse(Course model) throws Exception {
-        super.addCourse(model);
+        model.setTeacher(getId());
+        super.Role = UserRole.TEACHER;
+        Storage.Courses.add(model);
         if (this.ListCourses == null) {
             throw new Exception("Teacher has no courses list initialized.");
         }
         this.ListCourses.add(model.getId());
     }
 
+    @Override
     public void addCourseTask(Long courseId, Task taskModel) throws Exception {
         Course courseModel = Storage.getCourseById(courseId);
         if (courseModel != null && this.ListCourses.contains(courseId)) {
             courseModel.addTask(taskModel);
         } else {
             throw new Exception("Teacher does not teach this course.");
+        }
+    }
+
+    @Override
+    public @Nullable List<Task> getTaskList() throws Exception {
+        List<Task> teacherTasks = new ArrayList<>();
+        if (this.ListCourses == null) {
+            throw new Exception("Teacher has no courses list initialized.");
+        }
+        for (Long courseId : this.ListCourses) {
+            Course course = Storage.getCourseById(courseId);
+            if (course != null) {
+                assert course.getListTasks() != null;
+                teacherTasks.addAll(course.getListTasks());
+            }
+        }
+        return teacherTasks;
+    }
+
+    @Override
+    public void markTask(boolean state, Long taskId, Double mark, Long userId) throws Exception {
+        Task task = Storage.getTaskById(taskId);
+        User user = Storage.getUserById(userId);
+        if (!user.isStudent()) {
+            throw new Exception("User is not student.");
+        }
+        if (user.getTaskList().contains(task)) {
+            task.setCompleted(state);
+            task.setMark(mark);
+        } else {
+            throw new Exception("Student does not have this task assigned.");
         }
     }
 

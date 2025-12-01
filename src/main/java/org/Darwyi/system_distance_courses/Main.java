@@ -7,7 +7,6 @@ import org.Darwyi.system_distance_courses.models.tasks.TaskFactory;
 import org.Darwyi.system_distance_courses.models.usermodels.Student;
 import org.Darwyi.system_distance_courses.models.usermodels.Teacher;
 import org.Darwyi.system_distance_courses.models.usermodels.User;
-import org.Darwyi.system_distance_courses.models.usermodels.UserRole;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,9 +17,7 @@ public class Main {
 
         List<Long> TeacherCourses = new ArrayList<>();
 
-        User user = new User("Admin", "User", "email", "password", "bio", UserRole.ADMIN);
-
-        Teacher teacher = new Teacher("John", "Doe", "email", "password", "BIo", TeacherCourses, null , 10);
+        User teacher = new Teacher("John", "Doe", "email", "password", "BIo", TeacherCourses, null , 10);
 
         Course course = new Course("OOP", "Learn", teacher.getId());
         Course course1 = new Course("OOP", "Learn OOP", 0L);
@@ -28,7 +25,7 @@ public class Main {
 
         Syllabus syllabus = new Syllabus(List.of(course, course1, course2));
 
-        Student student = new Student("Jane", "Doe", "email", "password", "Bio", syllabus);
+        User student = new Student("Jane", "Doe", "email", "password", "Bio", syllabus);
 
         Task newTask = TaskFactory.createTest("Test 1", "Description of Test 1", "new attachment", "url", 100D);
         Task newTask1 = TaskFactory.createTopic("Lecture 1", "Description of lecture 1", "new attachment", true);
@@ -39,16 +36,22 @@ public class Main {
             teacher.addCourse(course1);
             teacher.addCourse(course2);
             //System.out.println(teacher.getCourses1());
-            student.joinCourse(course1.getId());
-            student.joinCourse(course2.getId());
+            student.addCourse(course);
+            student.addCourse(course1);
+            student.addCourse(course2);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
 
         teacher.addCourseTask(course.getId(), newTask2);
 
+        try {
+            student.markTask(true, newTask2.getId(), 95D, student.getId());
+            System.out.println(Storage.getTasksByUserId(student.getId()));
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 
-        System.out.println(user.toString());
         System.out.println(teacher.toString());
         System.out.println(student.toString());
         System.out.println(syllabus.toString());

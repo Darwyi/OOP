@@ -23,6 +23,19 @@ public class Storage {
         return null;
     }
 
+    public static List<Task> getTasksByUserId(Long userId) throws Exception {
+        List<Task> userTasks = new ArrayList<>();
+        for (User u : Users) {
+            if (u.getId().equals(userId)) {
+                if (u.isStudent()) {
+                    userTasks.addAll(u.getTaskList());
+                }
+                break;
+            }
+        }
+        return userTasks;
+    }
+
     public static User getUserById(Long id) {
         for (User s : Users) {
             if (s.getId().equals(id)) {

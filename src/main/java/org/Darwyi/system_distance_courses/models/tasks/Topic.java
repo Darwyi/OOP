@@ -1,11 +1,23 @@
 package org.Darwyi.system_distance_courses.models.tasks;
 
+import java.util.Map;
+
 class Topic extends Task {
     private boolean isLecture;
 
     Topic(String topic, String description, String attachment, boolean isLecture) {
         super(topic, description, attachment, TaskType.TOPIC);
         this.isLecture = isLecture;
+    }
+
+    @Override
+    public Map<Long, Double> getResults() throws Exception {
+        return null;
+    }
+
+    @Override
+    public Double getResultsForStudent(Long id) {
+        return 0.0;
     }
 
     public boolean isLecture() {
