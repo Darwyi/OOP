@@ -1,24 +1,35 @@
 package org.Darwyi.CollectionTypes;
 
+import org.Darwyi.CollectionTypes.exceptions.EmptyListException;
+import org.Darwyi.CollectionTypes.exceptions.InvalidIndexException;
+import org.Darwyi.CollectionTypes.exceptions.LimitException;
+
 import java.awt.*;
 
 public class MyLinkedList extends List {
     private OwnData start;
     private OwnData end;
     private int Size;
+    private final int capacity;
+
+    public MyLinkedList() {
+        this.capacity = Integer.MAX_VALUE;
+    }
+    public MyLinkedList(int Capacity) {
+        if (Capacity < 0) throw new LimitException("Capacity must be greater than 0");
+        this.capacity = Capacity;
+    }
 
     public int GetSize() {
         return Size;
     }
 
     public int GetCapacity() {
-        return Size;
+        return capacity;
     }
 
-    public int getCapacity() {
-        return 1;
-    }
     public void addEnd(int value) {
+        if (Size + 1 > capacity) throw new LimitException("Capacity limit exceeded" + capacity);
         OwnData data = new OwnData(value);
 
         if (start == null) {
@@ -33,10 +44,9 @@ public class MyLinkedList extends List {
         System.out.println("Added at the end: " + data.data);
     }
 
-    public void add(int index,int value) throws Exception {
-        if (index < 0) {
-            throw new Exception("Index is less than zero or bigger then size");
-        }
+    public void add(int index,int value) {
+        if (Size + 1 > capacity) throw new LimitException("Capacity limit exceeded" + capacity);
+        if (index < 0 || index > Size) throw new InvalidIndexException("Index is less than 0 or bigger than list size");
 
         if (index == 0 ) {
             addStart(value);
@@ -63,6 +73,7 @@ public class MyLinkedList extends List {
     }
 
     public void addStart(int value) {
+        if (Size + 1 > capacity) throw new LimitException("Capacity limit exceeded" + capacity);
         OwnData data = new OwnData(value);
         if (start == null) {
             start = end = data;
@@ -77,14 +88,12 @@ public class MyLinkedList extends List {
     }
 
 
-    public int get(int index) throws Exception {
+    public int get(int index) {
         return getData(index).data;
     }
 
-    private OwnData getData(int index) throws Exception {
-        if (index < 0) {
-            throw new Exception();
-        }
+    private OwnData getData(int index) {
+        if (index < 0 || index >= Size) throw new InvalidIndexException("Index is less than 0 or bigger than list size");
 
         OwnData currentData;
 
@@ -99,19 +108,16 @@ public class MyLinkedList extends List {
                 currentData = currentData.prev;
             }
         }
+
         return currentData;
     }
 
-    public void remove(int index) {
-        if (index < 0 || index > GetSize()) throw new IndexOutOfBoundsException();
+    public void remove(int index)  {
+        if (Size >= 0) throw new EmptyListException("Empty list");
+        if (index < 0 || index >= Size) throw new InvalidIndexException("Invalid index: " + index);
 
-        OwnData current = null;
+        OwnData current = getData(index);
 
-        try {
-            current = getData(index);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
         if (current.prev != null) {
             current.prev.next = current.next;
             for (int i = 0; i < GetSize() / 2; i++) {
@@ -132,17 +138,6 @@ public class MyLinkedList extends List {
 
     @Override
     public void clear() {
-//        for (int i = 0; i < GetSize(); i++) {
-//            OwnData current = null;
-//            try {
-//                current = getData(i);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//            System.out.println("Size: " + GetSize()+ "\n" + "Data: " + current.prev + " " + current + " " + current.next);
-//            current.prev = null;
-//        }
-//        Size = 0;
         start = end = null;
         Size = 0;
         System.out.println("List cleared");
