@@ -1,11 +1,11 @@
 package org.Darwyi.CollectionTypes;
 
-public class OwnData {
-    int data;
-    OwnData next;
-    OwnData prev;
+public class OwnData<T> {
+    T data;
+    OwnData<T> next;
+    OwnData<T> prev;
 
-    public OwnData(int data) {
+    public OwnData(T data) {
         this.data = data;
     }
 }

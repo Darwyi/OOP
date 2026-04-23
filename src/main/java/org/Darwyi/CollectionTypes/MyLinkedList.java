@@ -3,34 +3,43 @@ package org.Darwyi.CollectionTypes;
 import org.Darwyi.CollectionTypes.exceptions.EmptyListException;
 import org.Darwyi.CollectionTypes.exceptions.InvalidIndexException;
 import org.Darwyi.CollectionTypes.exceptions.LimitException;
+import org.Darwyi.CollectionTypes.exceptions.ValueIsNull;
 
-import java.awt.*;
-
-public class MyLinkedList extends List {
-    private OwnData start;
-    private OwnData end;
-    private int Size;
+public class MyLinkedList<T> {
+    private OwnData<T> start;
+    private OwnData<T> end;
+    private int size;
     private final int capacity;
 
     public MyLinkedList() {
         this.capacity = Integer.MAX_VALUE;
     }
-    public MyLinkedList(int Capacity) {
-        if (Capacity < 0) throw new LimitException("Capacity must be greater than 0");
-        this.capacity = Capacity;
+
+    public MyLinkedList(int capacity) {
+        if (capacity < 0) throw new LimitException("Capacity must be greater than 0");
+        this.capacity = capacity;
     }
 
     public int GetSize() {
-        return Size;
+        return size;
     }
 
     public int GetCapacity() {
         return capacity;
     }
 
-    public void addEnd(int value) {
-        if (Size + 1 > capacity) throw new LimitException("Capacity limit exceeded" + capacity);
-        OwnData data = new OwnData(value);
+    public T get(int index) {
+        return getData(index).data;
+    }
+
+    public int size() {
+        return size;
+    }
+
+    public void addEnd(T value) throws ValueIsNull {
+        checkNull(value);
+        checkCapacity();
+        OwnData<T> data = new OwnData<>(value);
 
         if (start == null) {
             start = end = data;
@@ -39,42 +48,42 @@ public class MyLinkedList extends List {
             data.prev = end;
             end = data;
         }
-        Size++;
-
+        size++;
         System.out.println("Added at the end: " + data.data);
     }
 
-    public void add(int index,int value) {
-        if (Size + 1 > capacity) throw new LimitException("Capacity limit exceeded" + capacity);
-        if (index < 0 || index > Size) throw new InvalidIndexException("Index is less than 0 or bigger than list size");
+    public void add(int index, T value) throws ValueIsNull {
+        checkNull(value);
+        checkCapacity();
+        if (index < 0 || index > size)
+            throw new InvalidIndexException("Index is less than 0 or bigger than list size");
 
-        if (index == 0 ) {
+        if (index == 0) {
             addStart(value);
             return;
         }
-
-        if (index == GetSize()) {
+        if (index == size) {
             addEnd(value);
             return;
         }
 
-        OwnData current = getData(index);
-        OwnData newData = new OwnData(value);
+        OwnData<T> current = getData(index);
+        OwnData<T> newData = new OwnData<>(value);
 
-        OwnData prev = current.prev;
+        OwnData<T> prev = current.prev;
         prev.next = newData;
         newData.prev = prev;
-
         newData.next = current;
         current.prev = newData;
-        Size++;
-
-        System.out.println("Added at the: " + index + " position, with " + newData.data + " value.");
+        size++;
+        System.out.println("Added at position " + index + " with value: " + newData.data);
     }
 
-    public void addStart(int value) {
-        if (Size + 1 > capacity) throw new LimitException("Capacity limit exceeded" + capacity);
-        OwnData data = new OwnData(value);
+    public void addStart(T value) throws ValueIsNull {
+        checkNull(value);
+        checkCapacity();
+        OwnData<T> data = new OwnData<>(value);
+
         if (start == null) {
             start = end = data;
         } else {
@@ -82,65 +91,54 @@ public class MyLinkedList extends List {
             data.next = start;
             start = data;
         }
-        Size++;
-
-        System.out.println("Added at the Start: " + data.data);
+        size++;
+        System.out.println("Added at the start: " + data.data);
     }
 
+    public void remove(int index) {
+        if (size <= 0) throw new EmptyListException("Empty list");
+        if (index < 0 || index >= size)
+            throw new InvalidIndexException("Invalid index: " + index);
 
-    public int get(int index) {
-        return getData(index).data;
+        OwnData<T> current = getData(index);
+
+        if (current.prev != null) current.prev.next = current.next;
+        else                      start = current.next;
+
+        if (current.next != null) current.next.prev = current.prev;
+        else                      end = current.prev;
+
+        size--;
+        System.out.println("Removed value " + current.data + " at index " + index);
     }
 
-    private OwnData getData(int index) {
-        if (index < 0 || index >= Size) throw new InvalidIndexException("Index is less than 0 or bigger than list size");
-
-        OwnData currentData;
-
-        if (index < GetSize() / 2) {
-            currentData = start;
-            for (int i = 0; i < index; i++) {
-                currentData = currentData.next;
-            }
-        } else {
-            currentData = end;
-            for (int i = GetSize() - 1; i > index; i--) {
-                currentData = currentData.prev;
-            }
-        }
-
-        return currentData;
-    }
-
-    public void remove(int index)  {
-        if (Size >= 0) throw new EmptyListException("Empty list");
-        if (index < 0 || index >= Size) throw new InvalidIndexException("Invalid index: " + index);
-
-        OwnData current = getData(index);
-
-        if (current.prev != null) {
-            current.prev.next = current.next;
-            for (int i = 0; i < GetSize() / 2; i++) {
-                current.prev = current.next.next;
-            }
-        } else {
-            start = current.next;
-        }
-
-        if (current.next != null) {
-            current.next.prev = current.prev;
-        } else {
-            end = current.prev;
-        }
-        Size--;
-        System.out.println("Data: " + current.data + " with index " + index + " successfully removed");
-    }
-
-    @Override
     public void clear() {
         start = end = null;
-        Size = 0;
+        size = 0;
         System.out.println("List cleared");
     }
 
+    private OwnData<T> getData(int index) {
+        if (index < 0 || index >= size)
+            throw new InvalidIndexException("Index is less than 0 or bigger than list size");
+
+        OwnData<T> current;
+        if (index < size / 2) {
+            current = start;
+            for (int i = 0; i < index; i++) current = current.next;
+        } else {
+            current = end;
+            for (int i = size - 1; i > index; i--) current = current.prev;
+        }
+        return current;
+    }
+
+    private void checkCapacity() {
+        if (size + 1 > capacity)
+            throw new LimitException("Capacity limit exceeded: " + capacity);
+    }
+
+    private void checkNull(T value) throws ValueIsNull {
+        if (value == null) throw new ValueIsNull("Null value is not allowed");
+    }
 }

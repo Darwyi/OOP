@@ -4,50 +4,56 @@ import org.Darwyi.CollectionTypes.exceptions.InvalidIndexException;
 import org.Darwyi.CollectionTypes.exceptions.LimitException;
 
 public class Main {
-    public static void main(String[] args) {
-        MyLinkedList list = new MyLinkedList(1);
-        try {
-            list.add(-1, 100);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
-        try {
-            list.addStart(0);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
-        try {
-            list.addStart(1);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+    public static void main(String[] args) throws Exception {
+
+        MyLinkedList<Integer> intList = new MyLinkedList<>();
+        intList.addEnd(10);
+        intList.addEnd(20);
+        intList.addStart(5);
+        intList.add(1, 7);
+        System.out.println("Size: " + intList.GetSize());
+        System.out.println("Index 0: " + intList.get(0));
+        System.out.println("Index 1: " + intList.get(1));
+        System.out.println("Index 2: " + intList.get(2));
+        System.out.println("Index 3: " + intList.get(3));
+        intList.remove(1);
+        System.out.println("index 1: " + intList.get(1));
+
+        MyLinkedList<String> strList = new MyLinkedList<>();
+        strList.addEnd("Hello");
+        strList.addEnd("World");
+        strList.addStart("Start");
+        System.out.println("Size: " + strList.GetSize());
+        System.out.println("index 0: " + strList.get(0));
+        System.out.println("index 1: " + strList.get(1));
+        System.out.println("index 2: " + strList.get(2));
+        strList.clear();
+
+        MyLinkedList<Double> dblList = new MyLinkedList<>();
+        dblList.addEnd(82563.09);
+        dblList.addEnd(15.120);
+        System.out.println("index 0: " + dblList.get(0));
+        System.out.println("index 1:  " + dblList.get(1));
 
         try {
-            MyLinkedList Rlist = new MyLinkedList();
-            Rlist.addEnd(12);
-            Rlist.add(1,14);
-            Rlist.addStart(13);
-            System.out.println("Data at index 0: " + Rlist.get(0));
-            System.out.println("Data at index 1: " + Rlist.get(1));
-            System.out.println("Data at index 2: " + Rlist.get(2));
-            System.out.println("Size: " + Rlist.GetSize());
-            System.out.println("Capacity: " + Rlist.GetCapacity());
-            Rlist.remove(0);
-            Rlist.clear();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());;
-        }
-
-        try {
-            MyLinkedList testList = new MyLinkedList(-1);
+            MyLinkedList<Integer> limited = new MyLinkedList<>(2);
+            limited.addEnd(1);
+            limited.addEnd(2);
+            limited.addEnd(3);
         } catch (LimitException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println(e.getMessage());
         }
 
         try {
-            list.get(10);
+            intList.get(100);
         } catch (InvalidIndexException e) {
-            System.out.println("Index error: " + e.getMessage());
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            strList.addEnd(null);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 }

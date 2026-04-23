@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efa59192-1c49-43fa-a17a-2a61fe48e339" name="Changes" comment="Added myself list realization">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/exceptions/EmptyListException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/exceptions/InvalidIndexException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/exceptions/LimitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/exceptions/ValueIsNull.java" afterDir="false" />
+    <list default="true" id="efa59192-1c49-43fa-a17a-2a61fe48e339" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/OwnData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/OwnData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,9 @@
       <workItem from="1775304420068" duration="2133000" />
       <workItem from="1775320243796" duration="2715000" />
       <workItem from="1775383307639" duration="7202000" />
-      <workItem from="1775391013790" duration="139000" />
+      <workItem from="1775391013790" duration="3365000" />
+      <workItem from="1775411879163" duration="1174000" />
+      <workItem from="1776922284438" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="Added myself list realization">
       <option name="closed" value="true" />
@@ -122,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775304588958</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added exceptions to list realization project">
+      <option name="closed" value="true" />
+      <created>1775391191589</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775391191589</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added myself list realization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added myself list realization" />
+    <MESSAGE value="Added exceptions to list realization project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exceptions to list realization project" />
   </component>
 </project>
