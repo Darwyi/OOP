@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efa59192-1c49-43fa-a17a-2a61fe48e339" name="Changes" comment="">
+    <list default="true" id="efa59192-1c49-43fa-a17a-2a61fe48e339" name="Changes" comment="Added generics realization to list project&#10;generics added is &lt;T&gt; which is allowing you to insert any data type you want to linkedList&#10;Exceptions: if type of data you want to insert is another from list data type then it will give you an error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/MyLinkedList.java" afterDir="false" />
@@ -37,6 +37,9 @@
     &quot;accountId&quot;: &quot;bcb42e74-6ea2-4b5e-b425-16c013c915ab&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -103,7 +106,7 @@
       <workItem from="1775383307639" duration="7202000" />
       <workItem from="1775391013790" duration="3365000" />
       <workItem from="1775411879163" duration="1174000" />
-      <workItem from="1776922284438" duration="318000" />
+      <workItem from="1776922284438" duration="3283000" />
     </task>
     <task id="LOCAL-00001" summary="Added myself list realization">
       <option name="closed" value="true" />
@@ -129,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775391191589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added generics realization to list project&#10;generics added is &lt;T&gt; which is allowing you to insert any data type you want to linkedList&#10;Exceptions: if type of data you want to insert is another from list data type then it will give you an error">
+      <option name="closed" value="true" />
+      <created>1776923133810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776923133810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added myself list realization" />
     <MESSAGE value="Added exceptions to list realization project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exceptions to list realization project" />
+    <MESSAGE value="Added generics realization to list project&#10;generics added is &lt;T&gt; which is allowing you to insert any data type you want to linkedList&#10;Exceptions: if type of data you want to insert is another from list data type then it will give you an error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added generics realization to list project&#10;generics added is &lt;T&gt; which is allowing you to insert any data type you want to linkedList&#10;Exceptions: if type of data you want to insert is another from list data type then it will give you an error" />
   </component>
 </project>
