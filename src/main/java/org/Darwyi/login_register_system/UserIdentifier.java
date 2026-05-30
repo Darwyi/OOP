@@ -1,0 +1,39 @@
+package org.Darwyi.login_register_system;
+
+import java.util.Objects;
+
+public class UserIdentifier {
+    private final int id;
+    private final String name;
+
+    public UserIdentifier(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof UserIdentifier)) return false;
+        UserIdentifier that = (UserIdentifier) o;
+        return id == that.id && Objects.equals(name, that.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
+    }
+
+    @Override
+    public String toString() {
+        return "UserIdentifier{id=" + id + ", name='" + name + "'}";
+    }
+}

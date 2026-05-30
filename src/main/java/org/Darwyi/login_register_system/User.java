@@ -5,15 +5,13 @@ import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public class User {
-    private int id;
-    private String name;
+    private final UserIdentifier identifier;
     private String password;
     private LocalDateTime lastLoginDate;
     private boolean isLoggedIn;
 
-    public User(int id, String name, String password) {
-        this.id = id;
-        this.name = name;
+    public User(UserIdentifier identifier, String password) {
+        this.identifier = identifier;
         this.password = password;
         this.lastLoginDate = null;
         this.isLoggedIn = false;
@@ -24,12 +22,12 @@ public class User {
         if (this == o) return true;
         if (!(o instanceof User)) return false;
         User user = (User) o;
-        return Objects.equals(name, user.name);
+        return Objects.equals(identifier, user.identifier);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name);
+        return Objects.hash(identifier);
     }
 
     @Override
@@ -37,11 +35,12 @@ public class User {
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm:ss");
         String lastLogin = (lastLoginDate != null) ? lastLoginDate.format(fmt) : "ніколи";
         return String.format("User{id=%d, name='%s', loggedIn=%b, lastLogin=%s}",
-                id, name, isLoggedIn, lastLogin);
+                identifier.getId(), identifier.getName(), isLoggedIn, lastLogin);
     }
 
-    public int getId() { return id; }
-    public String getName() { return name; }
+    public UserIdentifier getIdentifier() { return identifier; }
+    public int getId() { return identifier.getId(); }
+    public String getName() { return identifier.getName(); }
     public String getPassword() { return password; }
     public LocalDateTime getLastLoginDate() { return lastLoginDate; }
     public boolean isLoggedIn() { return isLoggedIn; }
