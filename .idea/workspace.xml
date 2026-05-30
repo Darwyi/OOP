@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efa59192-1c49-43fa-a17a-2a61fe48e339" name="Changes" comment="Added generics realization to list project&#10;generics added is &lt;T&gt; which is allowing you to insert any data type you want to linkedList&#10;Exceptions: if type of data you want to insert is another from list data type then it will give you an error">
+    <list default="true" id="efa59192-1c49-43fa-a17a-2a61fe48e339" name="Changes" comment="tesr">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/login_register_system/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/login_register_system/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/login_register_system/UserRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/OwnData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/CollectionTypes/OwnData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,9 @@
     &quot;assignee&quot;: &quot;Darwyi&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f7a3e9a1-e655-457c-98c8-5469e5cd7665" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Darwyi/OOP.git&quot;,
@@ -48,23 +51,33 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.org.Darwyi.login_register_system.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Downloads/KrasovskyiYevhenii31Schedule",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\OOP\src\main\java\org\Darwyi\login_register_system" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Darwyi.CollectionTypes.Main" />
@@ -106,7 +119,11 @@
       <workItem from="1775383307639" duration="7202000" />
       <workItem from="1775391013790" duration="3365000" />
       <workItem from="1775411879163" duration="1174000" />
-      <workItem from="1776922284438" duration="3283000" />
+      <workItem from="1776922284438" duration="3905000" />
+      <workItem from="1776979433514" duration="6000" />
+      <workItem from="1778256875619" duration="673000" />
+      <workItem from="1778432921029" duration="832000" />
+      <workItem from="1780160845117" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="Added myself list realization">
       <option name="closed" value="true" />
@@ -140,7 +157,55 @@
       <option name="project" value="LOCAL" />
       <updated>1776923133810</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added generics realization to list project&#10;generics added is Comparator which is allowing you to compare list data by strings length, integers, longs, doubles, also allowing reverse order of the list">
+      <option name="closed" value="true" />
+      <created>1776925607682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776925607682</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added generics realization to list project&#10;generics added is Comparator which is allowing you to compare list data by strings length, integers, longs, doubles, also allowing reverse order of the list">
+      <option name="closed" value="true" />
+      <created>1778256895904</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1778256895904</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tesr">
+      <option name="closed" value="true" />
+      <created>1780160865494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780160865495</updated>
+    </task>
+    <task id="LOCAL-00008" summary="tesr">
+      <option name="closed" value="true" />
+      <created>1780160961048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780160961048</updated>
+    </task>
+    <task id="LOCAL-00009" summary="tesr">
+      <option name="closed" value="true" />
+      <created>1780161033725</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1780161033725</updated>
+    </task>
+    <task id="LOCAL-00010" summary="tesr">
+      <option name="closed" value="true" />
+      <created>1780161105579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1780161105579</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +216,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -161,6 +238,8 @@
     <MESSAGE value="Added myself list realization" />
     <MESSAGE value="Added exceptions to list realization project" />
     <MESSAGE value="Added generics realization to list project&#10;generics added is &lt;T&gt; which is allowing you to insert any data type you want to linkedList&#10;Exceptions: if type of data you want to insert is another from list data type then it will give you an error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added generics realization to list project&#10;generics added is &lt;T&gt; which is allowing you to insert any data type you want to linkedList&#10;Exceptions: if type of data you want to insert is another from list data type then it will give you an error" />
+    <MESSAGE value="Added generics realization to list project&#10;generics added is Comparator which is allowing you to compare list data by strings length, integers, longs, doubles, also allowing reverse order of the list" />
+    <MESSAGE value="tesr" />
+    <option name="LAST_COMMIT_MESSAGE" value="tesr" />
   </component>
 </project>
