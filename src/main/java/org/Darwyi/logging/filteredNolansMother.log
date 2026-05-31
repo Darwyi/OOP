@@ -1,0 +1,1236 @@
+00000003 2026-05-30T01:51:16.267742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00000006 2026-05-30T01:51:16.389742500Z [CRITICAL] DbModule Disk full, cannot continue
+00000010 2026-05-30T01:51:16.588742500Z [WARNING] CacheModule Deprecated API endpoint used
+00000015 2026-05-30T01:51:16.712742500Z [WARNING] AuthModule Deprecated API endpoint used
+00000021 2026-05-30T01:51:16.973742500Z [CRITICAL] DbModule Kernel panic in subsystem
+00000022 2026-05-30T01:51:17.012742500Z [ERROR] CoreModule Null pointer in handler
+00000024 2026-05-30T01:51:17.065742500Z [WARNING] UiModule High memory usage detected (85%)
+00000030 2026-05-30T01:51:17.343742500Z [ERROR] CacheModule Failed to parse JSON payload
+00000037 2026-05-30T01:51:17.616742500Z [ERROR] DbModule File not found: config.yaml
+00000039 2026-05-30T01:51:17.696742500Z [WARNING] CoreModule Slow response from upstream service
+00000040 2026-05-30T01:51:17.675742500Z [CRITICAL] CacheModule Kernel panic in subsystem
+00000045 2026-05-30T01:51:17.861742500Z [WARNING] NetModule Slow response from upstream service
+00000051 2026-05-30T01:51:18.129742500Z [ERROR] AuthModule File not found: config.yaml
+00000059 2026-05-30T01:51:18.396742500Z [WARNING] DbModule Retry attempt 2 of 3
+00000072 2026-05-30T01:51:18.906742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00000074 2026-05-30T01:51:18.929742500Z [WARNING] DbModule Deprecated API endpoint used
+00000086 2026-05-30T01:51:19.392742500Z [ERROR] UiModule Authorization rejected for user
+00000087 2026-05-30T01:51:19.386742500Z [WARNING] AuthModule Slow response from upstream service
+00000090 2026-05-30T01:51:19.516742500Z [ERROR] CacheModule Authorization rejected for user
+00000091 2026-05-30T01:51:19.523742500Z [WARNING] AuthModule Deprecated API endpoint used
+00000094 2026-05-30T01:51:19.698742500Z [WARNING] NetModule Slow response from upstream service
+00000096 2026-05-30T01:51:19.751742500Z [ERROR] AuthModule Authorization rejected for user
+00000097 2026-05-30T01:51:19.788742500Z [ERROR] NetModule Authorization rejected for user
+00000098 2026-05-30T01:51:19.830742500Z [WARNING] NetModule Retry attempt 2 of 3
+00000100 2026-05-30T01:51:19.914742500Z [WARNING] NetModule High memory usage detected (85%)
+00000103 2026-05-30T01:51:19.996742500Z [WARNING] UiModule Slow response from upstream service
+00000105 2026-05-30T01:51:20.089742500Z [ERROR] CoreModule File not found: config.yaml
+00000109 2026-05-30T01:51:20.246742500Z [WARNING] CoreModule Slow response from upstream service
+00000113 2026-05-30T01:51:20.413742500Z [WARNING] CoreModule Slow response from upstream service
+00000117 2026-05-30T01:51:20.557742500Z [ERROR] UiModule File not found: config.yaml
+00000123 2026-05-30T01:51:20.752742500Z [WARNING] ApiModule Deprecated API endpoint used
+00000128 2026-05-30T01:51:20.923742500Z [ERROR] NetModule Null pointer in handler
+00000136 2026-05-30T01:51:21.280742500Z [CRITICAL] NetModule Kernel panic in subsystem
+00000137 2026-05-30T01:51:21.250742500Z [WARNING] AuthModule Deprecated API endpoint used
+00000139 2026-05-30T01:51:21.389742500Z [WARNING] AuthModule Slow response from upstream service
+00000140 2026-05-30T01:51:21.401742500Z [WARNING] AuthModule High memory usage detected (85%)
+00000141 2026-05-30T01:51:21.419742500Z [ERROR] CacheModule Failed to parse JSON payload
+00000144 2026-05-30T01:51:21.531742500Z [WARNING] UiModule High memory usage detected (85%)
+00000145 2026-05-30T01:51:21.573742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00000146 2026-05-30T01:51:21.607742500Z [WARNING] DbModule High memory usage detected (85%)
+00000149 2026-05-30T01:51:21.691742500Z [WARNING] ApiModule Deprecated API endpoint used
+00000152 2026-05-30T01:51:21.856742500Z [ERROR] ApiModule Connection timeout to database
+00000154 2026-05-30T01:51:21.873742500Z [ERROR] DbModule File not found: config.yaml
+00000157 2026-05-30T01:51:22.053742500Z [WARNING] NetModule Retry attempt 2 of 3
+00000162 2026-05-30T01:51:22.207742500Z [ERROR] AuthModule File not found: config.yaml
+00000164 2026-05-30T01:51:22.229742500Z [WARNING] ApiModule High memory usage detected (85%)
+00000166 2026-05-30T01:51:22.325742500Z [WARNING] NetModule Deprecated API endpoint used
+00000191 2026-05-30T01:51:23.304742500Z [WARNING] CoreModule High memory usage detected (85%)
+00000197 2026-05-30T01:51:23.542742500Z [WARNING] DbModule Deprecated API endpoint used
+00000201 2026-05-30T01:51:23.597742500Z [ERROR] ApiModule Null pointer in handler
+00000203 2026-05-30T01:51:23.706742500Z [WARNING] AuthModule High memory usage detected (85%)
+00000204 2026-05-30T01:51:23.757742500Z [ERROR] CacheModule Failed to parse JSON payload
+00000209 2026-05-30T01:51:23.935742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00000211 2026-05-30T01:51:23.996742500Z [CRITICAL] CoreModule Unrecoverable error in main loop
+00000213 2026-05-30T01:51:24.095742500Z [ERROR] CacheModule File not found: config.yaml
+00000221 2026-05-30T01:51:24.413742500Z [ERROR] DbModule Connection timeout to database
+00000222 2026-05-30T01:51:24.453742500Z [WARNING] ApiModule High memory usage detected (85%)
+00000223 2026-05-30T01:51:24.497742500Z [ERROR] ApiModule Authorization rejected for user
+00000232 2026-05-30T01:51:24.764742500Z [CRITICAL] CacheModule Out of memory, shutting down
+00000233 2026-05-30T01:51:24.819742500Z [WARNING] CoreModule Slow response from upstream service
+00000235 2026-05-30T01:51:24.910742500Z [CRITICAL] UiModule Kernel panic in subsystem
+00000243 2026-05-30T01:51:25.150742500Z [WARNING] CoreModule Deprecated API endpoint used
+00000249 2026-05-30T01:51:25.378742500Z [ERROR] NetModule Connection timeout to database
+00000251 2026-05-30T01:51:25.479742500Z [WARNING] NetModule Deprecated API endpoint used
+00000256 2026-05-30T01:51:25.702742500Z [ERROR] ApiModule Authorization rejected for user
+00000258 2026-05-30T01:51:25.772742500Z [WARNING] AuthModule Deprecated API endpoint used
+00000262 2026-05-30T01:51:25.893742500Z [ERROR] DbModule Null pointer in handler
+00000265 2026-05-30T01:51:26.002742500Z [WARNING] UiModule Retry attempt 2 of 3
+00000267 2026-05-30T01:51:26.113742500Z [WARNING] NetModule Slow response from upstream service
+00000268 2026-05-30T01:51:26.090742500Z [ERROR] AuthModule Authorization rejected for user
+00000270 2026-05-30T01:51:26.155742500Z [WARNING] NetModule Retry attempt 2 of 3
+00000274 2026-05-30T01:51:26.329742500Z [WARNING] NetModule High memory usage detected (85%)
+00000287 2026-05-30T01:51:26.800742500Z [ERROR] UiModule Null pointer in handler
+00000289 2026-05-30T01:51:26.926742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00000294 2026-05-30T01:51:27.059742500Z [ERROR] UiModule Failed to parse JSON payload
+00000295 2026-05-30T01:51:27.088742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00000303 2026-05-30T01:51:27.408742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00000304 2026-05-30T01:51:27.483742500Z [ERROR] UiModule Null pointer in handler
+00000308 2026-05-30T01:51:27.644742500Z [ERROR] UiModule Null pointer in handler
+00000309 2026-05-30T01:51:27.667742500Z [WARNING] ApiModule Slow response from upstream service
+00000316 2026-05-30T01:51:27.872742500Z [WARNING] NetModule Deprecated API endpoint used
+00000318 2026-05-30T01:51:28.002742500Z [WARNING] CacheModule Slow response from upstream service
+00000321 2026-05-30T01:51:28.114742500Z [WARNING] CoreModule Slow response from upstream service
+00000324 2026-05-30T01:51:28.227742500Z [WARNING] AuthModule High memory usage detected (85%)
+00000325 2026-05-30T01:51:28.251742500Z [CRITICAL] CoreModule Out of memory, shutting down
+00000332 2026-05-30T01:51:28.466742500Z [WARNING] ApiModule Deprecated API endpoint used
+00000347 2026-05-30T01:51:29.092742500Z [ERROR] UiModule Null pointer in handler
+00000348 2026-05-30T01:51:29.068742500Z [WARNING] ApiModule Slow response from upstream service
+00000359 2026-05-30T01:51:29.509742500Z [WARNING] CoreModule High memory usage detected (85%)
+00000364 2026-05-30T01:51:29.653742500Z [ERROR] CacheModule Authorization rejected for user
+00000365 2026-05-30T01:51:29.673742500Z [WARNING] NetModule High memory usage detected (85%)
+00000366 2026-05-30T01:51:29.714742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00000369 2026-05-30T01:51:29.822742500Z [WARNING] NetModule High memory usage detected (85%)
+00000370 2026-05-30T01:51:29.911742500Z [ERROR] NetModule Authorization rejected for user
+00000374 2026-05-30T01:51:29.995742500Z [CRITICAL] CacheModule Kernel panic in subsystem
+00000375 2026-05-30T01:51:30.046742500Z [ERROR] DbModule File not found: config.yaml
+00000380 2026-05-30T01:51:30.235742500Z [ERROR] ApiModule Authorization rejected for user
+00000382 2026-05-30T01:51:30.366742500Z [CRITICAL] ApiModule Disk full, cannot continue
+00000386 2026-05-30T01:51:30.517742500Z [ERROR] CacheModule File not found: config.yaml
+00000395 2026-05-30T01:51:30.820742500Z [ERROR] CacheModule Connection timeout to database
+00000410 2026-05-30T01:51:31.406742500Z [WARNING] UiModule Deprecated API endpoint used
+00000412 2026-05-30T01:51:31.436742500Z [WARNING] AuthModule Slow response from upstream service
+00000415 2026-05-30T01:51:31.592742500Z [WARNING] CacheModule Deprecated API endpoint used
+00000416 2026-05-30T01:51:31.585742500Z [ERROR] AuthModule File not found: config.yaml
+00000420 2026-05-30T01:51:31.730742500Z [CRITICAL] CoreModule Kernel panic in subsystem
+00000424 2026-05-30T01:51:31.906742500Z [WARNING] DbModule Slow response from upstream service
+00000425 2026-05-30T01:51:31.943742500Z [ERROR] NetModule Null pointer in handler
+00000427 2026-05-30T01:51:31.988742500Z [ERROR] CacheModule File not found: config.yaml
+00000428 2026-05-30T01:51:32.088742500Z [WARNING] DbModule Deprecated API endpoint used
+00000433 2026-05-30T01:51:32.240742500Z [WARNING] NetModule Slow response from upstream service
+00000434 2026-05-30T01:51:32.301742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00000439 2026-05-30T01:51:32.466742500Z [ERROR] UiModule Null pointer in handler
+00000442 2026-05-30T01:51:32.560742500Z [ERROR] AuthModule Connection timeout to database
+00000448 2026-05-30T01:51:32.750742500Z [WARNING] NetModule Retry attempt 2 of 3
+00000452 2026-05-30T01:51:32.889742500Z [ERROR] ApiModule Null pointer in handler
+00000459 2026-05-30T01:51:33.161742500Z [ERROR] DbModule Failed to parse JSON payload
+00000465 2026-05-30T01:51:33.380742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00000469 2026-05-30T01:51:33.606742500Z [ERROR] NetModule File not found: config.yaml
+00000474 2026-05-30T01:51:33.749742500Z [CRITICAL] CoreModule Unrecoverable error in main loop
+00000477 2026-05-30T01:51:33.845742500Z [WARNING] CacheModule Deprecated API endpoint used
+00000479 2026-05-30T01:51:33.937742500Z [WARNING] UiModule High memory usage detected (85%)
+00000506 2026-05-30T01:51:34.965742500Z [CRITICAL] AuthModule Kernel panic in subsystem
+00000509 2026-05-30T01:51:35.036742500Z [WARNING] NetModule High memory usage detected (85%)
+00000523 2026-05-30T01:51:35.520742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00000533 2026-05-30T01:51:35.900742500Z [WARNING] DbModule High memory usage detected (85%)
+00000535 2026-05-30T01:51:36.042742500Z [ERROR] CacheModule Null pointer in handler
+00000538 2026-05-30T01:51:36.106742500Z [WARNING] NetModule Deprecated API endpoint used
+00000548 2026-05-30T01:51:36.430742500Z [WARNING] ApiModule Slow response from upstream service
+00000551 2026-05-30T01:51:36.629742500Z [ERROR] CacheModule Authorization rejected for user
+00000552 2026-05-30T01:51:36.658742500Z [ERROR] AuthModule Null pointer in handler
+00000553 2026-05-30T01:51:36.689742500Z [ERROR] ApiModule Authorization rejected for user
+00000554 2026-05-30T01:51:36.699742500Z [WARNING] UiModule Deprecated API endpoint used
+00000555 2026-05-30T01:51:36.757742500Z [ERROR] AuthModule Failed to parse JSON payload
+00000557 2026-05-30T01:51:36.786742500Z [CRITICAL] NetModule Out of memory, shutting down
+00000566 2026-05-30T01:51:37.109742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00000576 2026-05-30T01:51:37.545742500Z [ERROR] ApiModule Failed to parse JSON payload
+00000585 2026-05-30T01:51:37.857742500Z [ERROR] ApiModule Authorization rejected for user
+00000588 2026-05-30T01:51:37.940742500Z [WARNING] UiModule Retry attempt 2 of 3
+00000593 2026-05-30T01:51:38.095742500Z [WARNING] UiModule Deprecated API endpoint used
+00000599 2026-05-30T01:51:38.392742500Z [WARNING] UiModule Deprecated API endpoint used
+00000607 2026-05-30T01:51:38.665742500Z [WARNING] ApiModule Deprecated API endpoint used
+00000609 2026-05-30T01:51:38.750742500Z [WARNING] UiModule Retry attempt 2 of 3
+00000612 2026-05-30T01:51:38.844742500Z [WARNING] CacheModule Deprecated API endpoint used
+00000614 2026-05-30T01:51:38.901742500Z [WARNING] NetModule Deprecated API endpoint used
+00000616 2026-05-30T01:51:38.951742500Z [ERROR] ApiModule Authorization rejected for user
+00000621 2026-05-30T01:51:39.227742500Z [CRITICAL] UiModule Out of memory, shutting down
+00000623 2026-05-30T01:51:39.301742500Z [ERROR] AuthModule File not found: config.yaml
+00000626 2026-05-30T01:51:39.338742500Z [WARNING] ApiModule High memory usage detected (85%)
+00000632 2026-05-30T01:51:39.579742500Z [WARNING] CoreModule Deprecated API endpoint used
+00000633 2026-05-30T01:51:39.599742500Z [WARNING] DbModule High memory usage detected (85%)
+00000636 2026-05-30T01:51:39.758742500Z [WARNING] ApiModule High memory usage detected (85%)
+00000641 2026-05-30T01:51:39.890742500Z [WARNING] DbModule Deprecated API endpoint used
+00000642 2026-05-30T01:51:39.991742500Z [ERROR] UiModule File not found: config.yaml
+00000648 2026-05-30T01:51:40.179742500Z [WARNING] CoreModule High memory usage detected (85%)
+00000649 2026-05-30T01:51:40.258742500Z [ERROR] UiModule File not found: config.yaml
+00000655 2026-05-30T01:51:40.451742500Z [ERROR] DbModule Connection timeout to database
+00000656 2026-05-30T01:51:40.488742500Z [ERROR] CacheModule Connection timeout to database
+00000658 2026-05-30T01:51:40.586742500Z [ERROR] CacheModule File not found: config.yaml
+00000659 2026-05-30T01:51:40.636742500Z [CRITICAL] CacheModule Disk full, cannot continue
+00000668 2026-05-30T01:51:40.936742500Z [CRITICAL] CoreModule Disk full, cannot continue
+00000679 2026-05-30T01:51:41.308742500Z [WARNING] CacheModule Slow response from upstream service
+00000687 2026-05-30T01:51:41.607742500Z [WARNING] CoreModule High memory usage detected (85%)
+00000693 2026-05-30T01:51:41.859742500Z [WARNING] CoreModule Slow response from upstream service
+00000694 2026-05-30T01:51:41.872742500Z [WARNING] UiModule Slow response from upstream service
+00000707 2026-05-30T01:51:42.330742500Z [WARNING] CoreModule High memory usage detected (85%)
+00000708 2026-05-30T01:51:42.442742500Z [ERROR] DbModule Connection timeout to database
+00000719 2026-05-30T01:51:42.797742500Z [WARNING] UiModule Retry attempt 2 of 3
+00000721 2026-05-30T01:51:42.881742500Z [WARNING] CacheModule Deprecated API endpoint used
+00000723 2026-05-30T01:51:42.921742500Z [WARNING] AuthModule Deprecated API endpoint used
+00000724 2026-05-30T01:51:42.955742500Z [ERROR] AuthModule Authorization rejected for user
+00000726 2026-05-30T01:51:43.021742500Z [ERROR] CoreModule Connection timeout to database
+00000728 2026-05-30T01:51:43.133742500Z [WARNING] CoreModule High memory usage detected (85%)
+00000733 2026-05-30T01:51:43.326742500Z [WARNING] ApiModule Slow response from upstream service
+00000734 2026-05-30T01:51:43.368742500Z [ERROR] NetModule Null pointer in handler
+00000735 2026-05-30T01:51:43.393742500Z [CRITICAL] AuthModule Disk full, cannot continue
+00000740 2026-05-30T01:51:43.608742500Z [CRITICAL] UiModule Out of memory, shutting down
+00000741 2026-05-30T01:51:43.588742500Z [WARNING] AuthModule High memory usage detected (85%)
+00000748 2026-05-30T01:51:43.898742500Z [WARNING] ApiModule High memory usage detected (85%)
+00000749 2026-05-30T01:51:43.896742500Z [WARNING] AuthModule Deprecated API endpoint used
+00000752 2026-05-30T01:51:44.022742500Z [WARNING] CacheModule High memory usage detected (85%)
+00000756 2026-05-30T01:51:44.180742500Z [ERROR] ApiModule Failed to parse JSON payload
+00000758 2026-05-30T01:51:44.233742500Z [CRITICAL] UiModule Unrecoverable error in main loop
+00000762 2026-05-30T01:51:44.377742500Z [WARNING] ApiModule Deprecated API endpoint used
+00000763 2026-05-30T01:51:44.429742500Z [ERROR] NetModule Connection timeout to database
+00000764 2026-05-30T01:51:44.446742500Z [ERROR] AuthModule File not found: config.yaml
+00000766 2026-05-30T01:51:44.595742500Z [CRITICAL] NetModule Unrecoverable error in main loop
+00000768 2026-05-30T01:51:44.575742500Z [WARNING] CacheModule Slow response from upstream service
+00000770 2026-05-30T01:51:44.671742500Z [ERROR] AuthModule Connection timeout to database
+00000771 2026-05-30T01:51:44.742742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00000775 2026-05-30T01:51:44.898742500Z [ERROR] AuthModule File not found: config.yaml
+00000776 2026-05-30T01:51:44.941742500Z [ERROR] ApiModule Null pointer in handler
+00000785 2026-05-30T01:51:45.229742500Z [CRITICAL] CoreModule Out of memory, shutting down
+00000787 2026-05-30T01:51:45.347742500Z [WARNING] AuthModule Deprecated API endpoint used
+00000789 2026-05-30T01:51:45.396742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00000793 2026-05-30T01:51:45.593742500Z [ERROR] CoreModule Authorization rejected for user
+00000801 2026-05-30T01:51:45.888742500Z [WARNING] ApiModule Deprecated API endpoint used
+00000803 2026-05-30T01:51:45.881742500Z [ERROR] CoreModule Failed to parse JSON payload
+00000807 2026-05-30T01:51:46.054742500Z [ERROR] NetModule Null pointer in handler
+00000809 2026-05-30T01:51:46.093742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00000811 2026-05-30T01:51:46.161742500Z [ERROR] UiModule File not found: config.yaml
+00000816 2026-05-30T01:51:46.380742500Z [WARNING] CacheModule Slow response from upstream service
+00000826 2026-05-30T01:51:46.807742500Z [CRITICAL] ApiModule Unrecoverable error in main loop
+00000827 2026-05-30T01:51:46.836742500Z [WARNING] CacheModule Deprecated API endpoint used
+00000831 2026-05-30T01:51:46.945742500Z [ERROR] ApiModule Connection timeout to database
+00000832 2026-05-30T01:51:46.972742500Z [ERROR] DbModule Failed to parse JSON payload
+00000839 2026-05-30T01:51:47.261742500Z [WARNING] UiModule Deprecated API endpoint used
+00000851 2026-05-30T01:51:47.643742500Z [WARNING] AuthModule Slow response from upstream service
+00000852 2026-05-30T01:51:47.747742500Z [ERROR] ApiModule File not found: config.yaml
+00000856 2026-05-30T01:51:47.915742500Z [ERROR] AuthModule Authorization rejected for user
+00000857 2026-05-30T01:51:47.934742500Z [WARNING] CacheModule High memory usage detected (85%)
+00000862 2026-05-30T01:51:48.071742500Z [ERROR] AuthModule Authorization rejected for user
+00000869 2026-05-30T01:51:48.347742500Z [WARNING] UiModule Retry attempt 2 of 3
+00000870 2026-05-30T01:51:48.401742500Z [WARNING] CacheModule Slow response from upstream service
+00000872 2026-05-30T01:51:48.458742500Z [ERROR] CacheModule Failed to parse JSON payload
+00000876 2026-05-30T01:51:48.609742500Z [WARNING] NetModule Deprecated API endpoint used
+00000880 2026-05-30T01:51:48.724742500Z [WARNING] AuthModule Slow response from upstream service
+00000887 2026-05-30T01:51:48.979742500Z [ERROR] NetModule Authorization rejected for user
+00000892 2026-05-30T01:51:49.174742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00000900 2026-05-30T01:51:49.503742500Z [WARNING] UiModule Retry attempt 2 of 3
+00000901 2026-05-30T01:51:49.518742500Z [WARNING] AuthModule Slow response from upstream service
+00000902 2026-05-30T01:51:49.590742500Z [CRITICAL] CacheModule Kernel panic in subsystem
+00000905 2026-05-30T01:51:49.702742500Z [WARNING] DbModule High memory usage detected (85%)
+00000906 2026-05-30T01:51:49.768742500Z [ERROR] AuthModule Authorization rejected for user
+00000907 2026-05-30T01:51:49.787742500Z [CRITICAL] CacheModule Unrecoverable error in main loop
+00000908 2026-05-30T01:51:49.827742500Z [CRITICAL] ApiModule Unrecoverable error in main loop
+00000909 2026-05-30T01:51:49.886742500Z [WARNING] AuthModule High memory usage detected (85%)
+00000910 2026-05-30T01:51:49.856742500Z [ERROR] DbModule File not found: config.yaml
+00000912 2026-05-30T01:51:49.964742500Z [ERROR] CoreModule File not found: config.yaml
+00000915 2026-05-30T01:51:50.105742500Z [ERROR] UiModule Authorization rejected for user
+00000920 2026-05-30T01:51:50.224742500Z [WARNING] NetModule Slow response from upstream service
+00000921 2026-05-30T01:51:50.326742500Z [ERROR] CoreModule File not found: config.yaml
+00000923 2026-05-30T01:51:50.360742500Z [WARNING] UiModule Deprecated API endpoint used
+00000926 2026-05-30T01:51:50.472742500Z [CRITICAL] ApiModule Unrecoverable error in main loop
+00000929 2026-05-30T01:51:50.592742500Z [ERROR] NetModule Null pointer in handler
+00000931 2026-05-30T01:51:50.664742500Z [WARNING] UiModule Deprecated API endpoint used
+00000932 2026-05-30T01:51:50.672742500Z [WARNING] UiModule Deprecated API endpoint used
+00000935 2026-05-30T01:51:50.816742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00000936 2026-05-30T01:51:50.833742500Z [ERROR] AuthModule Connection timeout to database
+00000938 2026-05-30T01:51:50.911742500Z [WARNING] CacheModule High memory usage detected (85%)
+00000940 2026-05-30T01:51:50.996742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00000941 2026-05-30T01:51:51.025742500Z [WARNING] CacheModule Slow response from upstream service
+00000943 2026-05-30T01:51:51.088742500Z [ERROR] CoreModule Connection timeout to database
+00000944 2026-05-30T01:51:51.130742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00000951 2026-05-30T01:51:51.388742500Z [WARNING] ApiModule High memory usage detected (85%)
+00000957 2026-05-30T01:51:51.601742500Z [ERROR] CoreModule Failed to parse JSON payload
+00000960 2026-05-30T01:51:51.755742500Z [WARNING] CacheModule Deprecated API endpoint used
+00000963 2026-05-30T01:51:51.876742500Z [ERROR] UiModule File not found: config.yaml
+00000967 2026-05-30T01:51:51.965742500Z [WARNING] CacheModule High memory usage detected (85%)
+00000972 2026-05-30T01:51:52.139742500Z [ERROR] NetModule Failed to parse JSON payload
+00000977 2026-05-30T01:51:52.326742500Z [WARNING] DbModule High memory usage detected (85%)
+00000982 2026-05-30T01:51:52.527742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00000988 2026-05-30T01:51:52.794742500Z [ERROR] CoreModule Failed to parse JSON payload
+00000990 2026-05-30T01:51:52.811742500Z [ERROR] NetModule Failed to parse JSON payload
+00000991 2026-05-30T01:51:52.845742500Z [WARNING] DbModule High memory usage detected (85%)
+00000995 2026-05-30T01:51:53.047742500Z [ERROR] NetModule Connection timeout to database
+00000997 2026-05-30T01:51:53.137742500Z [ERROR] CacheModule Null pointer in handler
+00000999 2026-05-30T01:51:53.133742500Z [CRITICAL] DbModule Kernel panic in subsystem
+00001008 2026-05-30T01:51:53.519742500Z [WARNING] DbModule Retry attempt 2 of 3
+00001010 2026-05-30T01:51:53.562742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001019 2026-05-30T01:51:53.899742500Z [ERROR] ApiModule Connection timeout to database
+00001038 2026-05-30T01:51:54.619742500Z [CRITICAL] CacheModule Disk full, cannot continue
+00001040 2026-05-30T01:51:54.692742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001043 2026-05-30T01:51:54.759742500Z [ERROR] DbModule Connection timeout to database
+00001052 2026-05-30T01:51:55.158742500Z [ERROR] DbModule Null pointer in handler
+00001070 2026-05-30T01:51:55.760742500Z [CRITICAL] CoreModule Kernel panic in subsystem
+00001075 2026-05-30T01:51:55.990742500Z [ERROR] CoreModule File not found: config.yaml
+00001077 2026-05-30T01:51:56.026742500Z [WARNING] ApiModule Deprecated API endpoint used
+00001079 2026-05-30T01:51:56.131742500Z [WARNING] CacheModule Slow response from upstream service
+00001080 2026-05-30T01:51:56.170742500Z [WARNING] CoreModule Deprecated API endpoint used
+00001081 2026-05-30T01:51:56.180742500Z [ERROR] CoreModule Connection timeout to database
+00001082 2026-05-30T01:51:56.228742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001083 2026-05-30T01:51:56.269742500Z [WARNING] CacheModule High memory usage detected (85%)
+00001085 2026-05-30T01:51:56.360742500Z [CRITICAL] ApiModule Disk full, cannot continue
+00001088 2026-05-30T01:51:56.498742500Z [WARNING] CacheModule High memory usage detected (85%)
+00001092 2026-05-30T01:51:56.582742500Z [ERROR] DbModule File not found: config.yaml
+00001095 2026-05-30T01:51:56.734742500Z [ERROR] UiModule Failed to parse JSON payload
+00001099 2026-05-30T01:51:56.880742500Z [WARNING] UiModule Deprecated API endpoint used
+00001105 2026-05-30T01:51:57.061742500Z [ERROR] CoreModule Connection timeout to database
+00001110 2026-05-30T01:51:57.276742500Z [ERROR] ApiModule Connection timeout to database
+00001127 2026-05-30T01:51:57.871742500Z [ERROR] DbModule Null pointer in handler
+00001135 2026-05-30T01:51:58.149742500Z [WARNING] NetModule High memory usage detected (85%)
+00001137 2026-05-30T01:51:58.226742500Z [ERROR] ApiModule Null pointer in handler
+00001139 2026-05-30T01:51:58.367742500Z [WARNING] CoreModule Deprecated API endpoint used
+00001143 2026-05-30T01:51:58.490742500Z [ERROR] AuthModule Authorization rejected for user
+00001144 2026-05-30T01:51:58.530742500Z [ERROR] CoreModule Authorization rejected for user
+00001151 2026-05-30T01:51:58.787742500Z [WARNING] DbModule High memory usage detected (85%)
+00001155 2026-05-30T01:51:58.941742500Z [ERROR] DbModule File not found: config.yaml
+00001163 2026-05-30T01:51:59.186742500Z [WARNING] NetModule Deprecated API endpoint used
+00001165 2026-05-30T01:51:59.321742500Z [WARNING] AuthModule Deprecated API endpoint used
+00001171 2026-05-30T01:51:59.553742500Z [WARNING] UiModule High memory usage detected (85%)
+00001183 2026-05-30T01:51:59.983742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00001188 2026-05-30T01:52:00.137742500Z [CRITICAL] UiModule Unrecoverable error in main loop
+00001191 2026-05-30T01:52:00.277742500Z [ERROR] CoreModule Authorization rejected for user
+00001201 2026-05-30T01:52:00.615742500Z [ERROR] AuthModule Connection timeout to database
+00001204 2026-05-30T01:52:00.759742500Z [ERROR] CoreModule Null pointer in handler
+00001205 2026-05-30T01:52:00.778742500Z [ERROR] UiModule Failed to parse JSON payload
+00001206 2026-05-30T01:52:00.860742500Z [WARNING] UiModule Deprecated API endpoint used
+00001212 2026-05-30T01:52:01.075742500Z [WARNING] DbModule High memory usage detected (85%)
+00001216 2026-05-30T01:52:01.241742500Z [ERROR] DbModule File not found: config.yaml
+00001221 2026-05-30T01:52:01.369742500Z [WARNING] NetModule High memory usage detected (85%)
+00001225 2026-05-30T01:52:01.573742500Z [ERROR] UiModule Null pointer in handler
+00001227 2026-05-30T01:52:01.575742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001229 2026-05-30T01:52:01.722742500Z [WARNING] NetModule Slow response from upstream service
+00001231 2026-05-30T01:52:01.797742500Z [WARNING] UiModule High memory usage detected (85%)
+00001235 2026-05-30T01:52:01.929742500Z [WARNING] NetModule Retry attempt 2 of 3
+00001236 2026-05-30T01:52:01.941742500Z [ERROR] AuthModule Connection timeout to database
+00001239 2026-05-30T01:52:02.035742500Z [WARNING] UiModule Slow response from upstream service
+00001252 2026-05-30T01:52:02.482742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00001261 2026-05-30T01:52:02.902742500Z [ERROR] AuthModule Connection timeout to database
+00001264 2026-05-30T01:52:02.979742500Z [WARNING] DbModule High memory usage detected (85%)
+00001266 2026-05-30T01:52:03.093742500Z [ERROR] CoreModule Connection timeout to database
+00001275 2026-05-30T01:52:03.364742500Z [ERROR] AuthModule File not found: config.yaml
+00001280 2026-05-30T01:52:03.552742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001284 2026-05-30T01:52:03.702742500Z [ERROR] CoreModule File not found: config.yaml
+00001296 2026-05-30T01:52:04.125742500Z [WARNING] NetModule High memory usage detected (85%)
+00001297 2026-05-30T01:52:04.219742500Z [WARNING] CoreModule Slow response from upstream service
+00001299 2026-05-30T01:52:04.243742500Z [ERROR] ApiModule Authorization rejected for user
+00001302 2026-05-30T01:52:04.411742500Z [ERROR] ApiModule File not found: config.yaml
+00001303 2026-05-30T01:52:04.439742500Z [WARNING] DbModule Slow response from upstream service
+00001316 2026-05-30T01:52:04.937742500Z [WARNING] UiModule High memory usage detected (85%)
+00001317 2026-05-30T01:52:04.891742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001325 2026-05-30T01:52:05.249742500Z [WARNING] AuthModule Deprecated API endpoint used
+00001330 2026-05-30T01:52:05.400742500Z [WARNING] NetModule Retry attempt 2 of 3
+00001331 2026-05-30T01:52:05.430742500Z [ERROR] UiModule File not found: config.yaml
+00001336 2026-05-30T01:52:05.596742500Z [WARNING] DbModule High memory usage detected (85%)
+00001339 2026-05-30T01:52:05.758742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00001346 2026-05-30T01:52:06.040742500Z [WARNING] CoreModule High memory usage detected (85%)
+00001356 2026-05-30T01:52:06.406742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001367 2026-05-30T01:52:06.800742500Z [WARNING] DbModule Deprecated API endpoint used
+00001369 2026-05-30T01:52:06.858742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001370 2026-05-30T01:52:06.868742500Z [CRITICAL] ApiModule Disk full, cannot continue
+00001386 2026-05-30T01:52:07.440742500Z [WARNING] NetModule High memory usage detected (85%)
+00001389 2026-05-30T01:52:07.587742500Z [WARNING] UiModule Slow response from upstream service
+00001390 2026-05-30T01:52:07.638742500Z [ERROR] ApiModule Failed to parse JSON payload
+00001396 2026-05-30T01:52:07.816742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00001399 2026-05-30T01:52:07.997742500Z [ERROR] AuthModule Connection timeout to database
+00001400 2026-05-30T01:52:07.999742500Z [ERROR] CoreModule File not found: config.yaml
+00001404 2026-05-30T01:52:08.158742500Z [ERROR] ApiModule File not found: config.yaml
+00001407 2026-05-30T01:52:08.243742500Z [WARNING] UiModule Deprecated API endpoint used
+00001411 2026-05-30T01:52:08.363742500Z [ERROR] AuthModule Connection timeout to database
+00001412 2026-05-30T01:52:08.477742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001413 2026-05-30T01:52:08.457742500Z [CRITICAL] CoreModule Kernel panic in subsystem
+00001415 2026-05-30T01:52:08.608742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00001418 2026-05-30T01:52:08.673742500Z [WARNING] NetModule Slow response from upstream service
+00001420 2026-05-30T01:52:08.723742500Z [ERROR] CacheModule Authorization rejected for user
+00001427 2026-05-30T01:52:08.985742500Z [WARNING] CoreModule Slow response from upstream service
+00001433 2026-05-30T01:52:09.178742500Z [ERROR] CoreModule Failed to parse JSON payload
+00001436 2026-05-30T01:52:09.367742500Z [ERROR] DbModule File not found: config.yaml
+00001440 2026-05-30T01:52:09.494742500Z [WARNING] AuthModule Slow response from upstream service
+00001441 2026-05-30T01:52:09.558742500Z [WARNING] UiModule Deprecated API endpoint used
+00001442 2026-05-30T01:52:09.575742500Z [WARNING] UiModule High memory usage detected (85%)
+00001445 2026-05-30T01:52:09.622742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001447 2026-05-30T01:52:09.778742500Z [ERROR] UiModule Null pointer in handler
+00001451 2026-05-30T01:52:09.917742500Z [ERROR] DbModule Connection timeout to database
+00001452 2026-05-30T01:52:09.900742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001453 2026-05-30T01:52:09.934742500Z [CRITICAL] ApiModule Disk full, cannot continue
+00001454 2026-05-30T01:52:10.009742500Z [WARNING] ApiModule Deprecated API endpoint used
+00001457 2026-05-30T01:52:10.080742500Z [ERROR] CacheModule Failed to parse JSON payload
+00001458 2026-05-30T01:52:10.156742500Z [WARNING] NetModule High memory usage detected (85%)
+00001461 2026-05-30T01:52:10.241742500Z [WARNING] UiModule High memory usage detected (85%)
+00001465 2026-05-30T01:52:10.361742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001466 2026-05-30T01:52:10.399742500Z [ERROR] AuthModule Authorization rejected for user
+00001467 2026-05-30T01:52:10.525742500Z [WARNING] AuthModule Deprecated API endpoint used
+00001468 2026-05-30T01:52:10.555742500Z [WARNING] ApiModule Deprecated API endpoint used
+00001469 2026-05-30T01:52:10.554742500Z [WARNING] AuthModule Slow response from upstream service
+00001470 2026-05-30T01:52:10.556742500Z [WARNING] NetModule Deprecated API endpoint used
+00001474 2026-05-30T01:52:10.737742500Z [ERROR] UiModule Authorization rejected for user
+00001476 2026-05-30T01:52:10.769742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001480 2026-05-30T01:52:10.945742500Z [CRITICAL] AuthModule Kernel panic in subsystem
+00001492 2026-05-30T01:52:11.364742500Z [ERROR] NetModule File not found: config.yaml
+00001498 2026-05-30T01:52:11.592742500Z [WARNING] ApiModule Deprecated API endpoint used
+00001500 2026-05-30T01:52:11.737742500Z [WARNING] UiModule Slow response from upstream service
+00001503 2026-05-30T01:52:11.808742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001513 2026-05-30T01:52:12.171742500Z [WARNING] DbModule Deprecated API endpoint used
+00001520 2026-05-30T01:52:12.459742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00001521 2026-05-30T01:52:12.483742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001522 2026-05-30T01:52:12.565742500Z [WARNING] AuthModule Deprecated API endpoint used
+00001534 2026-05-30T01:52:13.008742500Z [WARNING] DbModule Deprecated API endpoint used
+00001540 2026-05-30T01:52:13.211742500Z [CRITICAL] CacheModule Unrecoverable error in main loop
+00001542 2026-05-30T01:52:13.222742500Z [ERROR] ApiModule Null pointer in handler
+00001543 2026-05-30T01:52:13.288742500Z [WARNING] DbModule Deprecated API endpoint used
+00001545 2026-05-30T01:52:13.327742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001546 2026-05-30T01:52:13.452742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001549 2026-05-30T01:52:13.547742500Z [ERROR] UiModule File not found: config.yaml
+00001550 2026-05-30T01:52:13.581742500Z [WARNING] CacheModule High memory usage detected (85%)
+00001560 2026-05-30T01:52:13.881742500Z [ERROR] DbModule Authorization rejected for user
+00001562 2026-05-30T01:52:14.029742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001580 2026-05-30T01:52:14.626742500Z [ERROR] CacheModule Authorization rejected for user
+00001582 2026-05-30T01:52:14.710742500Z [ERROR] UiModule File not found: config.yaml
+00001585 2026-05-30T01:52:14.868742500Z [ERROR] NetModule Authorization rejected for user
+00001591 2026-05-30T01:52:15.053742500Z [ERROR] AuthModule Null pointer in handler
+00001595 2026-05-30T01:52:15.171742500Z [ERROR] CoreModule Connection timeout to database
+00001606 2026-05-30T01:52:15.591742500Z [ERROR] ApiModule Failed to parse JSON payload
+00001608 2026-05-30T01:52:15.735742500Z [WARNING] DbModule Retry attempt 2 of 3
+00001610 2026-05-30T01:52:15.757742500Z [WARNING] UiModule Deprecated API endpoint used
+00001614 2026-05-30T01:52:15.921742500Z [WARNING] DbModule Deprecated API endpoint used
+00001620 2026-05-30T01:52:16.135742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001621 2026-05-30T01:52:16.138742500Z [ERROR] DbModule File not found: config.yaml
+00001623 2026-05-30T01:52:16.251742500Z [WARNING] UiModule High memory usage detected (85%)
+00001625 2026-05-30T01:52:16.368742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001630 2026-05-30T01:52:16.549742500Z [WARNING] UiModule Deprecated API endpoint used
+00001631 2026-05-30T01:52:16.572742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00001640 2026-05-30T01:52:16.852742500Z [ERROR] CoreModule Null pointer in handler
+00001641 2026-05-30T01:52:16.953742500Z [WARNING] AuthModule Slow response from upstream service
+00001650 2026-05-30T01:52:17.285742500Z [ERROR] CacheModule Null pointer in handler
+00001651 2026-05-30T01:52:17.247742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001653 2026-05-30T01:52:17.382742500Z [WARNING] DbModule Slow response from upstream service
+00001655 2026-05-30T01:52:17.488742500Z [WARNING] ApiModule Deprecated API endpoint used
+00001664 2026-05-30T01:52:17.726742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001668 2026-05-30T01:52:17.954742500Z [WARNING] CacheModule Slow response from upstream service
+00001680 2026-05-30T01:52:18.381742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001683 2026-05-30T01:52:18.518742500Z [ERROR] NetModule File not found: config.yaml
+00001695 2026-05-30T01:52:18.899742500Z [WARNING] DbModule Retry attempt 2 of 3
+00001708 2026-05-30T01:52:19.417742500Z [CRITICAL] NetModule Kernel panic in subsystem
+00001712 2026-05-30T01:52:19.520742500Z [WARNING] DbModule Retry attempt 2 of 3
+00001725 2026-05-30T01:52:20.067742500Z [WARNING] AuthModule Deprecated API endpoint used
+00001729 2026-05-30T01:52:20.146742500Z [WARNING] DbModule High memory usage detected (85%)
+00001731 2026-05-30T01:52:20.267742500Z [CRITICAL] AuthModule Kernel panic in subsystem
+00001732 2026-05-30T01:52:20.282742500Z [WARNING] CoreModule High memory usage detected (85%)
+00001737 2026-05-30T01:52:20.454742500Z [ERROR] DbModule Authorization rejected for user
+00001742 2026-05-30T01:52:20.620742500Z [WARNING] AuthModule Slow response from upstream service
+00001754 2026-05-30T01:52:21.125742500Z [CRITICAL] ApiModule Disk full, cannot continue
+00001757 2026-05-30T01:52:21.200742500Z [WARNING] DbModule Slow response from upstream service
+00001759 2026-05-30T01:52:21.240742500Z [WARNING] ApiModule Deprecated API endpoint used
+00001761 2026-05-30T01:52:21.410742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001763 2026-05-30T01:52:21.410742500Z [WARNING] CacheModule Slow response from upstream service
+00001766 2026-05-30T01:52:21.584742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001767 2026-05-30T01:52:21.571742500Z [ERROR] CoreModule Null pointer in handler
+00001772 2026-05-30T01:52:21.742742500Z [WARNING] CacheModule Deprecated API endpoint used
+00001774 2026-05-30T01:52:21.812742500Z [WARNING] NetModule Retry attempt 2 of 3
+00001775 2026-05-30T01:52:21.853742500Z [ERROR] CacheModule Failed to parse JSON payload
+00001782 2026-05-30T01:52:22.141742500Z [WARNING] NetModule Slow response from upstream service
+00001788 2026-05-30T01:52:22.382742500Z [WARNING] CacheModule High memory usage detected (85%)
+00001792 2026-05-30T01:52:22.541742500Z [WARNING] AuthModule Slow response from upstream service
+00001799 2026-05-30T01:52:22.765742500Z [ERROR] CoreModule Authorization rejected for user
+00001800 2026-05-30T01:52:22.834742500Z [CRITICAL] DbModule Disk full, cannot continue
+00001801 2026-05-30T01:52:22.819742500Z [WARNING] NetModule High memory usage detected (85%)
+00001804 2026-05-30T01:52:22.974742500Z [WARNING] ApiModule Deprecated API endpoint used
+00001808 2026-05-30T01:52:23.134742500Z [ERROR] CacheModule Connection timeout to database
+00001809 2026-05-30T01:52:23.169742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001813 2026-05-30T01:52:23.262742500Z [WARNING] DbModule Slow response from upstream service
+00001816 2026-05-30T01:52:23.423742500Z [WARNING] AuthModule Slow response from upstream service
+00001817 2026-05-30T01:52:23.397742500Z [WARNING] DbModule High memory usage detected (85%)
+00001822 2026-05-30T01:52:23.629742500Z [WARNING] DbModule High memory usage detected (85%)
+00001839 2026-05-30T01:52:24.247742500Z [WARNING] AuthModule Slow response from upstream service
+00001842 2026-05-30T01:52:24.400742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001849 2026-05-30T01:52:24.570742500Z [WARNING] DbModule Deprecated API endpoint used
+00001851 2026-05-30T01:52:24.689742500Z [WARNING] CoreModule High memory usage detected (85%)
+00001855 2026-05-30T01:52:24.868742500Z [WARNING] DbModule Retry attempt 2 of 3
+00001856 2026-05-30T01:52:24.869742500Z [WARNING] NetModule Retry attempt 2 of 3
+00001859 2026-05-30T01:52:24.988742500Z [ERROR] AuthModule Authorization rejected for user
+00001868 2026-05-30T01:52:25.357742500Z [ERROR] AuthModule Failed to parse JSON payload
+00001869 2026-05-30T01:52:25.354742500Z [WARNING] CacheModule High memory usage detected (85%)
+00001875 2026-05-30T01:52:25.540742500Z [WARNING] CacheModule High memory usage detected (85%)
+00001881 2026-05-30T01:52:25.770742500Z [CRITICAL] DbModule Disk full, cannot continue
+00001882 2026-05-30T01:52:25.801742500Z [WARNING] CacheModule Slow response from upstream service
+00001883 2026-05-30T01:52:25.844742500Z [WARNING] UiModule High memory usage detected (85%)
+00001887 2026-05-30T01:52:26.040742500Z [WARNING] NetModule Slow response from upstream service
+00001888 2026-05-30T01:52:26.024742500Z [CRITICAL] DbModule Disk full, cannot continue
+00001893 2026-05-30T01:52:26.293742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001896 2026-05-30T01:52:26.380742500Z [ERROR] UiModule Authorization rejected for user
+00001899 2026-05-30T01:52:26.460742500Z [WARNING] NetModule Slow response from upstream service
+00001902 2026-05-30T01:52:26.561742500Z [CRITICAL] NetModule Unrecoverable error in main loop
+00001903 2026-05-30T01:52:26.610742500Z [WARNING] UiModule Deprecated API endpoint used
+00001907 2026-05-30T01:52:26.752742500Z [WARNING] UiModule High memory usage detected (85%)
+00001912 2026-05-30T01:52:26.966742500Z [WARNING] AuthModule Slow response from upstream service
+00001915 2026-05-30T01:52:27.093742500Z [ERROR] CoreModule Null pointer in handler
+00001918 2026-05-30T01:52:27.141742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001922 2026-05-30T01:52:27.327742500Z [WARNING] ApiModule Deprecated API endpoint used
+00001923 2026-05-30T01:52:27.352742500Z [WARNING] CoreModule Slow response from upstream service
+00001927 2026-05-30T01:52:27.497742500Z [WARNING] NetModule High memory usage detected (85%)
+00001930 2026-05-30T01:52:27.602742500Z [ERROR] AuthModule Null pointer in handler
+00001931 2026-05-30T01:52:27.664742500Z [WARNING] CoreModule Slow response from upstream service
+00001935 2026-05-30T01:52:27.844742500Z [CRITICAL] CoreModule Kernel panic in subsystem
+00001946 2026-05-30T01:52:28.202742500Z [WARNING] NetModule High memory usage detected (85%)
+00001948 2026-05-30T01:52:28.275742500Z [ERROR] DbModule Failed to parse JSON payload
+00001949 2026-05-30T01:52:28.273742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001950 2026-05-30T01:52:28.377742500Z [WARNING] DbModule Slow response from upstream service
+00001951 2026-05-30T01:52:28.395742500Z [CRITICAL] CacheModule Unrecoverable error in main loop
+00001954 2026-05-30T01:52:28.458742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00001956 2026-05-30T01:52:28.527742500Z [WARNING] UiModule Retry attempt 2 of 3
+00001960 2026-05-30T01:52:28.739742500Z [WARNING] CoreModule Slow response from upstream service
+00001962 2026-05-30T01:52:28.753742500Z [WARNING] ApiModule High memory usage detected (85%)
+00001970 2026-05-30T01:52:29.135742500Z [WARNING] DbModule Deprecated API endpoint used
+00001971 2026-05-30T01:52:29.099742500Z [WARNING] AuthModule Slow response from upstream service
+00001972 2026-05-30T01:52:29.151742500Z [WARNING] CoreModule High memory usage detected (85%)
+00001974 2026-05-30T01:52:29.275742500Z [ERROR] ApiModule Failed to parse JSON payload
+00001977 2026-05-30T01:52:29.373742500Z [WARNING] AuthModule High memory usage detected (85%)
+00001983 2026-05-30T01:52:29.574742500Z [WARNING] UiModule Deprecated API endpoint used
+00001988 2026-05-30T01:52:29.779742500Z [CRITICAL] CacheModule Unrecoverable error in main loop
+00001994 2026-05-30T01:52:29.975742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00001995 2026-05-30T01:52:30.001742500Z [WARNING] NetModule Slow response from upstream service
+00001996 2026-05-30T01:52:30.046742500Z [WARNING] UiModule Deprecated API endpoint used
+00002010 2026-05-30T01:52:30.545742500Z [ERROR] CoreModule Authorization rejected for user
+00002023 2026-05-30T01:52:31.088742500Z [ERROR] DbModule Null pointer in handler
+00002026 2026-05-30T01:52:31.187742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00002030 2026-05-30T01:52:31.329742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00002034 2026-05-30T01:52:31.484742500Z [WARNING] NetModule Deprecated API endpoint used
+00002035 2026-05-30T01:52:31.472742500Z [ERROR] NetModule File not found: config.yaml
+00002036 2026-05-30T01:52:31.547742500Z [WARNING] AuthModule Slow response from upstream service
+00002042 2026-05-30T01:52:31.801742500Z [WARNING] UiModule Slow response from upstream service
+00002052 2026-05-30T01:52:32.153742500Z [WARNING] DbModule Slow response from upstream service
+00002060 2026-05-30T01:52:32.392742500Z [WARNING] ApiModule Deprecated API endpoint used
+00002072 2026-05-30T01:52:32.852742500Z [WARNING] CoreModule High memory usage detected (85%)
+00002075 2026-05-30T01:52:32.962742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002079 2026-05-30T01:52:33.087742500Z [ERROR] NetModule File not found: config.yaml
+00002090 2026-05-30T01:52:33.583742500Z [WARNING] UiModule Deprecated API endpoint used
+00002095 2026-05-30T01:52:33.701742500Z [WARNING] AuthModule High memory usage detected (85%)
+00002098 2026-05-30T01:52:33.819742500Z [ERROR] AuthModule Connection timeout to database
+00002100 2026-05-30T01:52:33.929742500Z [WARNING] DbModule Deprecated API endpoint used
+00002101 2026-05-30T01:52:33.928742500Z [WARNING] NetModule Retry attempt 2 of 3
+00002102 2026-05-30T01:52:34.014742500Z [WARNING] AuthModule Deprecated API endpoint used
+00002109 2026-05-30T01:52:34.242742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002113 2026-05-30T01:52:34.351742500Z [WARNING] CacheModule Deprecated API endpoint used
+00002121 2026-05-30T01:52:34.642742500Z [WARNING] UiModule High memory usage detected (85%)
+00002123 2026-05-30T01:52:34.793742500Z [ERROR] UiModule File not found: config.yaml
+00002125 2026-05-30T01:52:34.868742500Z [CRITICAL] NetModule Disk full, cannot continue
+00002129 2026-05-30T01:52:34.945742500Z [WARNING] CoreModule Slow response from upstream service
+00002133 2026-05-30T01:52:35.173742500Z [ERROR] ApiModule File not found: config.yaml
+00002134 2026-05-30T01:52:35.165742500Z [ERROR] UiModule Failed to parse JSON payload
+00002136 2026-05-30T01:52:35.271742500Z [ERROR] CacheModule File not found: config.yaml
+00002142 2026-05-30T01:52:35.471742500Z [ERROR] DbModule Null pointer in handler
+00002146 2026-05-30T01:52:35.596742500Z [ERROR] CoreModule Failed to parse JSON payload
+00002148 2026-05-30T01:52:35.697742500Z [WARNING] UiModule Retry attempt 2 of 3
+00002153 2026-05-30T01:52:35.817742500Z [WARNING] CacheModule Slow response from upstream service
+00002154 2026-05-30T01:52:35.868742500Z [ERROR] UiModule Null pointer in handler
+00002155 2026-05-30T01:52:35.895742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002156 2026-05-30T01:52:35.931742500Z [WARNING] CoreModule Slow response from upstream service
+00002158 2026-05-30T01:52:36.006742500Z [ERROR] CoreModule File not found: config.yaml
+00002163 2026-05-30T01:52:36.224742500Z [ERROR] AuthModule Failed to parse JSON payload
+00002167 2026-05-30T01:52:36.401742500Z [ERROR] CoreModule Connection timeout to database
+00002177 2026-05-30T01:52:36.741742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002192 2026-05-30T01:52:37.346742500Z [WARNING] DbModule Retry attempt 2 of 3
+00002193 2026-05-30T01:52:37.389742500Z [WARNING] CacheModule Deprecated API endpoint used
+00002201 2026-05-30T01:52:37.688742500Z [ERROR] ApiModule File not found: config.yaml
+00002202 2026-05-30T01:52:37.691742500Z [CRITICAL] ApiModule Out of memory, shutting down
+00002203 2026-05-30T01:52:37.714742500Z [WARNING] DbModule Retry attempt 2 of 3
+00002204 2026-05-30T01:52:37.735742500Z [WARNING] ApiModule Deprecated API endpoint used
+00002211 2026-05-30T01:52:38.016742500Z [ERROR] DbModule Null pointer in handler
+00002216 2026-05-30T01:52:38.158742500Z [ERROR] NetModule Authorization rejected for user
+00002218 2026-05-30T01:52:38.256742500Z [WARNING] DbModule Slow response from upstream service
+00002219 2026-05-30T01:52:38.291742500Z [WARNING] CoreModule High memory usage detected (85%)
+00002221 2026-05-30T01:52:38.358742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002227 2026-05-30T01:52:38.611742500Z [ERROR] NetModule Null pointer in handler
+00002231 2026-05-30T01:52:38.710742500Z [WARNING] AuthModule Slow response from upstream service
+00002232 2026-05-30T01:52:38.785742500Z [WARNING] DbModule Deprecated API endpoint used
+00002246 2026-05-30T01:52:39.264742500Z [ERROR] DbModule Failed to parse JSON payload
+00002253 2026-05-30T01:52:39.548742500Z [WARNING] NetModule Retry attempt 2 of 3
+00002257 2026-05-30T01:52:39.723742500Z [WARNING] NetModule High memory usage detected (85%)
+00002264 2026-05-30T01:52:39.993742500Z [ERROR] CoreModule File not found: config.yaml
+00002271 2026-05-30T01:52:40.248742500Z [ERROR] CacheModule Failed to parse JSON payload
+00002272 2026-05-30T01:52:40.219742500Z [ERROR] NetModule Authorization rejected for user
+00002287 2026-05-30T01:52:40.797742500Z [ERROR] ApiModule Null pointer in handler
+00002290 2026-05-30T01:52:40.948742500Z [WARNING] UiModule Deprecated API endpoint used
+00002297 2026-05-30T01:52:41.166742500Z [WARNING] DbModule Slow response from upstream service
+00002300 2026-05-30T01:52:41.322742500Z [ERROR] CoreModule Null pointer in handler
+00002304 2026-05-30T01:52:41.402742500Z [WARNING] UiModule Deprecated API endpoint used
+00002309 2026-05-30T01:52:41.650742500Z [ERROR] NetModule Null pointer in handler
+00002311 2026-05-30T01:52:41.750742500Z [WARNING] NetModule Deprecated API endpoint used
+00002312 2026-05-30T01:52:41.757742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00002313 2026-05-30T01:52:41.787742500Z [WARNING] ApiModule Slow response from upstream service
+00002317 2026-05-30T01:52:41.974742500Z [WARNING] CacheModule Deprecated API endpoint used
+00002324 2026-05-30T01:52:42.230742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002328 2026-05-30T01:52:42.326742500Z [WARNING] AuthModule Deprecated API endpoint used
+00002329 2026-05-30T01:52:42.333742500Z [CRITICAL] CoreModule Disk full, cannot continue
+00002330 2026-05-30T01:52:42.423742500Z [WARNING] UiModule Retry attempt 2 of 3
+00002332 2026-05-30T01:52:42.461742500Z [WARNING] CacheModule Slow response from upstream service
+00002337 2026-05-30T01:52:42.715742500Z [WARNING] DbModule High memory usage detected (85%)
+00002338 2026-05-30T01:52:42.751742500Z [WARNING] NetModule High memory usage detected (85%)
+00002348 2026-05-30T01:52:43.108742500Z [WARNING] CacheModule Deprecated API endpoint used
+00002353 2026-05-30T01:52:43.243742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002354 2026-05-30T01:52:43.283742500Z [CRITICAL] CoreModule Disk full, cannot continue
+00002355 2026-05-30T01:52:43.387742500Z [CRITICAL] ApiModule Out of memory, shutting down
+00002357 2026-05-30T01:52:43.384742500Z [CRITICAL] CacheModule Disk full, cannot continue
+00002359 2026-05-30T01:52:43.513742500Z [ERROR] UiModule Null pointer in handler
+00002360 2026-05-30T01:52:43.498742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00002361 2026-05-30T01:52:43.578742500Z [WARNING] UiModule Deprecated API endpoint used
+00002375 2026-05-30T01:52:44.050742500Z [WARNING] CoreModule Deprecated API endpoint used
+00002380 2026-05-30T01:52:44.293742500Z [ERROR] CoreModule Failed to parse JSON payload
+00002386 2026-05-30T01:52:44.530742500Z [ERROR] AuthModule Connection timeout to database
+00002387 2026-05-30T01:52:44.476742500Z [CRITICAL] NetModule Unrecoverable error in main loop
+00002392 2026-05-30T01:52:44.680742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00002393 2026-05-30T01:52:44.746742500Z [WARNING] UiModule Retry attempt 2 of 3
+00002397 2026-05-30T01:52:44.873742500Z [WARNING] UiModule Retry attempt 2 of 3
+00002398 2026-05-30T01:52:44.942742500Z [WARNING] DbModule Deprecated API endpoint used
+00002403 2026-05-30T01:52:45.157742500Z [WARNING] CoreModule High memory usage detected (85%)
+00002404 2026-05-30T01:52:45.174742500Z [WARNING] NetModule Slow response from upstream service
+00002408 2026-05-30T01:52:45.267742500Z [WARNING] ApiModule Slow response from upstream service
+00002413 2026-05-30T01:52:45.473742500Z [WARNING] DbModule Deprecated API endpoint used
+00002414 2026-05-30T01:52:45.555742500Z [WARNING] UiModule High memory usage detected (85%)
+00002416 2026-05-30T01:52:45.599742500Z [WARNING] AuthModule High memory usage detected (85%)
+00002419 2026-05-30T01:52:45.660742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00002423 2026-05-30T01:52:45.820742500Z [ERROR] ApiModule File not found: config.yaml
+00002424 2026-05-30T01:52:45.933742500Z [WARNING] AuthModule Deprecated API endpoint used
+00002429 2026-05-30T01:52:46.122742500Z [ERROR] NetModule Connection timeout to database
+00002432 2026-05-30T01:52:46.209742500Z [CRITICAL] DbModule Kernel panic in subsystem
+00002435 2026-05-30T01:52:46.325742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00002436 2026-05-30T01:52:46.320742500Z [CRITICAL] CoreModule Kernel panic in subsystem
+00002441 2026-05-30T01:52:46.567742500Z [ERROR] DbModule Failed to parse JSON payload
+00002451 2026-05-30T01:52:46.858742500Z [CRITICAL] UiModule Disk full, cannot continue
+00002454 2026-05-30T01:52:47.013742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002460 2026-05-30T01:52:47.179742500Z [ERROR] AuthModule Null pointer in handler
+00002463 2026-05-30T01:52:47.338742500Z [WARNING] NetModule Deprecated API endpoint used
+00002467 2026-05-30T01:52:47.518742500Z [ERROR] AuthModule Failed to parse JSON payload
+00002468 2026-05-30T01:52:47.549742500Z [WARNING] DbModule Retry attempt 2 of 3
+00002474 2026-05-30T01:52:47.699742500Z [WARNING] NetModule Retry attempt 2 of 3
+00002475 2026-05-30T01:52:47.778742500Z [WARNING] AuthModule High memory usage detected (85%)
+00002476 2026-05-30T01:52:47.863742500Z [WARNING] UiModule High memory usage detected (85%)
+00002479 2026-05-30T01:52:47.931742500Z [ERROR] AuthModule File not found: config.yaml
+00002483 2026-05-30T01:52:48.059742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00002488 2026-05-30T01:52:48.286742500Z [ERROR] NetModule Connection timeout to database
+00002493 2026-05-30T01:52:48.457742500Z [ERROR] NetModule File not found: config.yaml
+00002495 2026-05-30T01:52:48.514742500Z [CRITICAL] AuthModule Kernel panic in subsystem
+00002505 2026-05-30T01:52:48.854742500Z [ERROR] DbModule Connection timeout to database
+00002509 2026-05-30T01:52:49.042742500Z [WARNING] DbModule Slow response from upstream service
+00002523 2026-05-30T01:52:49.543742500Z [ERROR] CacheModule Failed to parse JSON payload
+00002525 2026-05-30T01:52:49.673742500Z [WARNING] NetModule Deprecated API endpoint used
+00002526 2026-05-30T01:52:49.622742500Z [ERROR] ApiModule File not found: config.yaml
+00002528 2026-05-30T01:52:49.694742500Z [ERROR] ApiModule Connection timeout to database
+00002532 2026-05-30T01:52:49.902742500Z [ERROR] UiModule Failed to parse JSON payload
+00002535 2026-05-30T01:52:50.045742500Z [WARNING] NetModule High memory usage detected (85%)
+00002544 2026-05-30T01:52:50.325742500Z [WARNING] NetModule Slow response from upstream service
+00002549 2026-05-30T01:52:50.472742500Z [WARNING] ApiModule High memory usage detected (85%)
+00002556 2026-05-30T01:52:50.814742500Z [WARNING] CacheModule Slow response from upstream service
+00002567 2026-05-30T01:52:51.223742500Z [ERROR] DbModule Failed to parse JSON payload
+00002571 2026-05-30T01:52:51.374742500Z [WARNING] CacheModule High memory usage detected (85%)
+00002578 2026-05-30T01:52:51.590742500Z [ERROR] ApiModule Failed to parse JSON payload
+00002584 2026-05-30T01:52:51.763742500Z [WARNING] AuthModule Slow response from upstream service
+00002585 2026-05-30T01:52:51.835742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00002589 2026-05-30T01:52:52.019742500Z [WARNING] NetModule Deprecated API endpoint used
+00002592 2026-05-30T01:52:52.069742500Z [WARNING] ApiModule Deprecated API endpoint used
+00002593 2026-05-30T01:52:52.158742500Z [ERROR] NetModule Authorization rejected for user
+00002602 2026-05-30T01:52:52.524742500Z [WARNING] AuthModule High memory usage detected (85%)
+00002604 2026-05-30T01:52:52.546742500Z [WARNING] DbModule Deprecated API endpoint used
+00002606 2026-05-30T01:52:52.595742500Z [WARNING] ApiModule Deprecated API endpoint used
+00002609 2026-05-30T01:52:52.768742500Z [ERROR] CoreModule Null pointer in handler
+00002614 2026-05-30T01:52:52.962742500Z [CRITICAL] CacheModule Out of memory, shutting down
+00002621 2026-05-30T01:52:53.139742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00002622 2026-05-30T01:52:53.231742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00002628 2026-05-30T01:52:53.407742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00002633 2026-05-30T01:52:53.670742500Z [WARNING] CoreModule Deprecated API endpoint used
+00002634 2026-05-30T01:52:53.664742500Z [WARNING] DbModule Retry attempt 2 of 3
+00002637 2026-05-30T01:52:53.725742500Z [WARNING] ApiModule Deprecated API endpoint used
+00002645 2026-05-30T01:52:54.028742500Z [WARNING] NetModule Retry attempt 2 of 3
+00002646 2026-05-30T01:52:54.145742500Z [ERROR] DbModule Null pointer in handler
+00002648 2026-05-30T01:52:54.213742500Z [WARNING] NetModule Retry attempt 2 of 3
+00002649 2026-05-30T01:52:54.228742500Z [ERROR] AuthModule Authorization rejected for user
+00002651 2026-05-30T01:52:54.284742500Z [ERROR] CacheModule Connection timeout to database
+00002653 2026-05-30T01:52:54.326742500Z [ERROR] DbModule File not found: config.yaml
+00002654 2026-05-30T01:52:54.381742500Z [ERROR] CoreModule Failed to parse JSON payload
+00002664 2026-05-30T01:52:54.818742500Z [ERROR] DbModule Null pointer in handler
+00002665 2026-05-30T01:52:54.829742500Z [WARNING] DbModule High memory usage detected (85%)
+00002666 2026-05-30T01:52:54.818742500Z [WARNING] CacheModule Slow response from upstream service
+00002670 2026-05-30T01:52:55.012742500Z [ERROR] AuthModule Connection timeout to database
+00002673 2026-05-30T01:52:55.088742500Z [WARNING] AuthModule High memory usage detected (85%)
+00002677 2026-05-30T01:52:55.236742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00002679 2026-05-30T01:52:55.359742500Z [WARNING] CacheModule Deprecated API endpoint used
+00002682 2026-05-30T01:52:55.440742500Z [ERROR] DbModule Connection timeout to database
+00002683 2026-05-30T01:52:55.465742500Z [WARNING] UiModule Slow response from upstream service
+00002687 2026-05-30T01:52:55.609742500Z [WARNING] ApiModule Slow response from upstream service
+00002694 2026-05-30T01:52:55.931742500Z [ERROR] ApiModule Null pointer in handler
+00002696 2026-05-30T01:52:55.958742500Z [WARNING] CoreModule Deprecated API endpoint used
+00002703 2026-05-30T01:52:56.245742500Z [WARNING] DbModule Retry attempt 2 of 3
+00002706 2026-05-30T01:52:56.340742500Z [WARNING] DbModule Deprecated API endpoint used
+00002709 2026-05-30T01:52:56.478742500Z [ERROR] CacheModule Connection timeout to database
+00002711 2026-05-30T01:52:56.482742500Z [ERROR] DbModule Authorization rejected for user
+00002712 2026-05-30T01:52:56.562742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00002718 2026-05-30T01:52:56.794742500Z [CRITICAL] DbModule Unrecoverable error in main loop
+00002720 2026-05-30T01:52:56.794742500Z [ERROR] ApiModule Null pointer in handler
+00002721 2026-05-30T01:52:56.925742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00002728 2026-05-30T01:52:57.161742500Z [ERROR] ApiModule Connection timeout to database
+00002730 2026-05-30T01:52:57.209742500Z [WARNING] CoreModule Deprecated API endpoint used
+00002732 2026-05-30T01:52:57.309742500Z [WARNING] ApiModule Deprecated API endpoint used
+00002733 2026-05-30T01:52:57.339742500Z [WARNING] UiModule Slow response from upstream service
+00002735 2026-05-30T01:52:57.397742500Z [CRITICAL] ApiModule Disk full, cannot continue
+00002745 2026-05-30T01:52:57.807742500Z [CRITICAL] CoreModule Out of memory, shutting down
+00002747 2026-05-30T01:52:57.851742500Z [WARNING] DbModule Deprecated API endpoint used
+00002761 2026-05-30T01:52:58.330742500Z [WARNING] NetModule Retry attempt 2 of 3
+00002765 2026-05-30T01:52:58.517742500Z [WARNING] CacheModule Deprecated API endpoint used
+00002767 2026-05-30T01:52:58.571742500Z [CRITICAL] UiModule Out of memory, shutting down
+00002768 2026-05-30T01:52:58.606742500Z [WARNING] CoreModule High memory usage detected (85%)
+00002772 2026-05-30T01:52:58.735742500Z [WARNING] NetModule High memory usage detected (85%)
+00002774 2026-05-30T01:52:58.870742500Z [ERROR] UiModule Failed to parse JSON payload
+00002786 2026-05-30T01:52:59.262742500Z [WARNING] NetModule Retry attempt 2 of 3
+00002788 2026-05-30T01:52:59.395742500Z [ERROR] NetModule Failed to parse JSON payload
+00002796 2026-05-30T01:52:59.646742500Z [ERROR] ApiModule Connection timeout to database
+00002797 2026-05-30T01:52:59.657742500Z [WARNING] DbModule High memory usage detected (85%)
+00002801 2026-05-30T01:52:59.832742500Z [ERROR] ApiModule Authorization rejected for user
+00002803 2026-05-30T01:52:59.949742500Z [WARNING] CacheModule Deprecated API endpoint used
+00002811 2026-05-30T01:53:00.232742500Z [WARNING] UiModule Retry attempt 2 of 3
+00002812 2026-05-30T01:53:00.246742500Z [CRITICAL] DbModule Disk full, cannot continue
+00002814 2026-05-30T01:53:00.332742500Z [ERROR] UiModule Authorization rejected for user
+00002819 2026-05-30T01:53:00.504742500Z [WARNING] NetModule Slow response from upstream service
+00002823 2026-05-30T01:53:00.696742500Z [WARNING] UiModule Deprecated API endpoint used
+00002826 2026-05-30T01:53:00.718742500Z [ERROR] CoreModule Authorization rejected for user
+00002828 2026-05-30T01:53:00.794742500Z [WARNING] ApiModule Slow response from upstream service
+00002829 2026-05-30T01:53:00.875742500Z [CRITICAL] CacheModule Kernel panic in subsystem
+00002837 2026-05-30T01:53:01.180742500Z [ERROR] CacheModule Failed to parse JSON payload
+00002845 2026-05-30T01:53:01.427742500Z [WARNING] DbModule Slow response from upstream service
+00002849 2026-05-30T01:53:01.653742500Z [WARNING] AuthModule Deprecated API endpoint used
+00002859 2026-05-30T01:53:01.999742500Z [ERROR] CoreModule Authorization rejected for user
+00002860 2026-05-30T01:53:02.020742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00002863 2026-05-30T01:53:02.150742500Z [WARNING] UiModule Retry attempt 2 of 3
+00002865 2026-05-30T01:53:02.194742500Z [WARNING] UiModule Slow response from upstream service
+00002869 2026-05-30T01:53:02.355742500Z [WARNING] CoreModule Slow response from upstream service
+00002883 2026-05-30T01:53:02.834742500Z [WARNING] NetModule High memory usage detected (85%)
+00002885 2026-05-30T01:53:02.911742500Z [WARNING] NetModule Slow response from upstream service
+00002886 2026-05-30T01:53:02.976742500Z [WARNING] AuthModule Deprecated API endpoint used
+00002887 2026-05-30T01:53:02.995742500Z [WARNING] CacheModule Deprecated API endpoint used
+00002896 2026-05-30T01:53:03.362742500Z [WARNING] AuthModule High memory usage detected (85%)
+00002900 2026-05-30T01:53:03.494742500Z [ERROR] NetModule File not found: config.yaml
+00002907 2026-05-30T01:53:03.797742500Z [WARNING] UiModule High memory usage detected (85%)
+00002910 2026-05-30T01:53:03.860742500Z [WARNING] NetModule Retry attempt 2 of 3
+00002912 2026-05-30T01:53:03.949742500Z [CRITICAL] DbModule Kernel panic in subsystem
+00002918 2026-05-30T01:53:04.174742500Z [WARNING] DbModule High memory usage detected (85%)
+00002919 2026-05-30T01:53:04.236742500Z [ERROR] AuthModule Failed to parse JSON payload
+00002927 2026-05-30T01:53:04.469742500Z [ERROR] ApiModule File not found: config.yaml
+00002933 2026-05-30T01:53:04.748742500Z [ERROR] UiModule Connection timeout to database
+00002940 2026-05-30T01:53:04.978742500Z [WARNING] AuthModule Slow response from upstream service
+00002945 2026-05-30T01:53:05.146742500Z [ERROR] DbModule Failed to parse JSON payload
+00002949 2026-05-30T01:53:05.274742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00002954 2026-05-30T01:53:05.485742500Z [ERROR] CoreModule File not found: config.yaml
+00002960 2026-05-30T01:53:05.699742500Z [ERROR] UiModule Failed to parse JSON payload
+00002964 2026-05-30T01:53:05.883742500Z [WARNING] UiModule Slow response from upstream service
+00002966 2026-05-30T01:53:05.985742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00002970 2026-05-30T01:53:06.069742500Z [CRITICAL] CoreModule Disk full, cannot continue
+00002971 2026-05-30T01:53:06.110742500Z [ERROR] ApiModule File not found: config.yaml
+00002974 2026-05-30T01:53:06.205742500Z [ERROR] ApiModule File not found: config.yaml
+00002985 2026-05-30T01:53:06.695742500Z [ERROR] NetModule Null pointer in handler
+00002988 2026-05-30T01:53:06.715742500Z [WARNING] ApiModule High memory usage detected (85%)
+00002999 2026-05-30T01:53:07.178742500Z [ERROR] DbModule Authorization rejected for user
+00003002 2026-05-30T01:53:07.315742500Z [WARNING] CacheModule Deprecated API endpoint used
+00003005 2026-05-30T01:53:07.354742500Z [WARNING] CoreModule High memory usage detected (85%)
+00003008 2026-05-30T01:53:07.482742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003011 2026-05-30T01:53:07.639742500Z [WARNING] CoreModule Slow response from upstream service
+00003013 2026-05-30T01:53:07.699742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00003017 2026-05-30T01:53:07.822742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00003019 2026-05-30T01:53:07.906742500Z [WARNING] NetModule High memory usage detected (85%)
+00003023 2026-05-30T01:53:08.081742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00003027 2026-05-30T01:53:08.163742500Z [CRITICAL] DbModule Unrecoverable error in main loop
+00003028 2026-05-30T01:53:08.214742500Z [WARNING] DbModule High memory usage detected (85%)
+00003029 2026-05-30T01:53:08.286742500Z [WARNING] CacheModule Deprecated API endpoint used
+00003032 2026-05-30T01:53:08.425742500Z [WARNING] CacheModule High memory usage detected (85%)
+00003034 2026-05-30T01:53:08.464742500Z [ERROR] CoreModule File not found: config.yaml
+00003035 2026-05-30T01:53:08.481742500Z [CRITICAL] CacheModule Out of memory, shutting down
+00003036 2026-05-30T01:53:08.513742500Z [ERROR] ApiModule Authorization rejected for user
+00003038 2026-05-30T01:53:08.656742500Z [WARNING] CacheModule High memory usage detected (85%)
+00003039 2026-05-30T01:53:08.623742500Z [WARNING] UiModule Slow response from upstream service
+00003043 2026-05-30T01:53:08.841742500Z [WARNING] ApiModule High memory usage detected (85%)
+00003049 2026-05-30T01:53:09.027742500Z [ERROR] AuthModule Null pointer in handler
+00003056 2026-05-30T01:53:09.254742500Z [ERROR] CoreModule Null pointer in handler
+00003065 2026-05-30T01:53:09.592742500Z [WARNING] AuthModule High memory usage detected (85%)
+00003074 2026-05-30T01:53:09.926742500Z [ERROR] UiModule Connection timeout to database
+00003077 2026-05-30T01:53:10.031742500Z [ERROR] ApiModule Authorization rejected for user
+00003079 2026-05-30T01:53:10.157742500Z [ERROR] DbModule File not found: config.yaml
+00003080 2026-05-30T01:53:10.211742500Z [WARNING] AuthModule Slow response from upstream service
+00003081 2026-05-30T01:53:10.227742500Z [ERROR] AuthModule Connection timeout to database
+00003083 2026-05-30T01:53:10.301742500Z [WARNING] UiModule Slow response from upstream service
+00003084 2026-05-30T01:53:10.311742500Z [WARNING] CoreModule Deprecated API endpoint used
+00003087 2026-05-30T01:53:10.462742500Z [WARNING] CacheModule High memory usage detected (85%)
+00003091 2026-05-30T01:53:10.521742500Z [ERROR] NetModule Connection timeout to database
+00003097 2026-05-30T01:53:10.787742500Z [WARNING] UiModule Deprecated API endpoint used
+00003100 2026-05-30T01:53:10.913742500Z [CRITICAL] NetModule Disk full, cannot continue
+00003104 2026-05-30T01:53:11.058742500Z [CRITICAL] UiModule Disk full, cannot continue
+00003112 2026-05-30T01:53:11.312742500Z [ERROR] ApiModule Failed to parse JSON payload
+00003113 2026-05-30T01:53:11.409742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003116 2026-05-30T01:53:11.498742500Z [WARNING] CoreModule Deprecated API endpoint used
+00003117 2026-05-30T01:53:11.539742500Z [WARNING] CoreModule Deprecated API endpoint used
+00003144 2026-05-30T01:53:12.503742500Z [WARNING] AuthModule Deprecated API endpoint used
+00003146 2026-05-30T01:53:12.625742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00003147 2026-05-30T01:53:12.622742500Z [ERROR] ApiModule Null pointer in handler
+00003153 2026-05-30T01:53:12.817742500Z [ERROR] AuthModule Connection timeout to database
+00003157 2026-05-30T01:53:12.971742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00003158 2026-05-30T01:53:13.018742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00003159 2026-05-30T01:53:13.040742500Z [ERROR] CoreModule Null pointer in handler
+00003170 2026-05-30T01:53:13.450742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003174 2026-05-30T01:53:13.683742500Z [WARNING] AuthModule Deprecated API endpoint used
+00003175 2026-05-30T01:53:13.637742500Z [ERROR] UiModule Null pointer in handler
+00003176 2026-05-30T01:53:13.753742500Z [CRITICAL] UiModule Unrecoverable error in main loop
+00003179 2026-05-30T01:53:13.824742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00003184 2026-05-30T01:53:14.032742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00003188 2026-05-30T01:53:14.124742500Z [WARNING] CacheModule Deprecated API endpoint used
+00003194 2026-05-30T01:53:14.386742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00003197 2026-05-30T01:53:14.508742500Z [WARNING] CacheModule Slow response from upstream service
+00003205 2026-05-30T01:53:14.751742500Z [WARNING] NetModule High memory usage detected (85%)
+00003207 2026-05-30T01:53:14.821742500Z [WARNING] ApiModule Slow response from upstream service
+00003209 2026-05-30T01:53:14.907742500Z [ERROR] AuthModule Null pointer in handler
+00003212 2026-05-30T01:53:15.020742500Z [WARNING] UiModule High memory usage detected (85%)
+00003214 2026-05-30T01:53:15.171742500Z [ERROR] AuthModule Failed to parse JSON payload
+00003215 2026-05-30T01:53:15.161742500Z [WARNING] UiModule Deprecated API endpoint used
+00003218 2026-05-30T01:53:15.231742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00003221 2026-05-30T01:53:15.405742500Z [WARNING] CoreModule Deprecated API endpoint used
+00003222 2026-05-30T01:53:15.387742500Z [ERROR] CoreModule Failed to parse JSON payload
+00003225 2026-05-30T01:53:15.516742500Z [CRITICAL] CoreModule Kernel panic in subsystem
+00003231 2026-05-30T01:53:15.742742500Z [WARNING] NetModule High memory usage detected (85%)
+00003232 2026-05-30T01:53:15.823742500Z [WARNING] NetModule Deprecated API endpoint used
+00003236 2026-05-30T01:53:15.984742500Z [WARNING] NetModule Deprecated API endpoint used
+00003242 2026-05-30T01:53:16.159742500Z [ERROR] UiModule Failed to parse JSON payload
+00003269 2026-05-30T01:53:17.205742500Z [ERROR] AuthModule Null pointer in handler
+00003277 2026-05-30T01:53:17.426742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00003278 2026-05-30T01:53:17.451742500Z [WARNING] NetModule Slow response from upstream service
+00003279 2026-05-30T01:53:17.479742500Z [WARNING] AuthModule Slow response from upstream service
+00003284 2026-05-30T01:53:17.668742500Z [WARNING] DbModule Slow response from upstream service
+00003296 2026-05-30T01:53:18.177742500Z [WARNING] DbModule Deprecated API endpoint used
+00003298 2026-05-30T01:53:18.221742500Z [WARNING] NetModule Retry attempt 2 of 3
+00003299 2026-05-30T01:53:18.308742500Z [ERROR] AuthModule Failed to parse JSON payload
+00003301 2026-05-30T01:53:18.387742500Z [WARNING] NetModule Slow response from upstream service
+00003304 2026-05-30T01:53:18.429742500Z [WARNING] UiModule Slow response from upstream service
+00003305 2026-05-30T01:53:18.447742500Z [ERROR] ApiModule Authorization rejected for user
+00003307 2026-05-30T01:53:18.574742500Z [WARNING] DbModule Slow response from upstream service
+00003308 2026-05-30T01:53:18.573742500Z [WARNING] AuthModule High memory usage detected (85%)
+00003311 2026-05-30T01:53:18.700742500Z [WARNING] NetModule Slow response from upstream service
+00003315 2026-05-30T01:53:18.821742500Z [ERROR] ApiModule Authorization rejected for user
+00003316 2026-05-30T01:53:18.906742500Z [WARNING] CoreModule Deprecated API endpoint used
+00003317 2026-05-30T01:53:18.943742500Z [ERROR] NetModule Failed to parse JSON payload
+00003319 2026-05-30T01:53:18.980742500Z [ERROR] NetModule File not found: config.yaml
+00003320 2026-05-30T01:53:19.042742500Z [WARNING] UiModule Deprecated API endpoint used
+00003321 2026-05-30T01:53:19.122742500Z [ERROR] AuthModule Authorization rejected for user
+00003326 2026-05-30T01:53:19.246742500Z [WARNING] UiModule Retry attempt 2 of 3
+00003335 2026-05-30T01:53:19.558742500Z [WARNING] AuthModule Deprecated API endpoint used
+00003336 2026-05-30T01:53:19.675742500Z [WARNING] AuthModule Deprecated API endpoint used
+00003342 2026-05-30T01:53:19.877742500Z [WARNING] UiModule Deprecated API endpoint used
+00003344 2026-05-30T01:53:19.892742500Z [WARNING] NetModule Slow response from upstream service
+00003349 2026-05-30T01:53:20.111742500Z [WARNING] DbModule Retry attempt 2 of 3
+00003353 2026-05-30T01:53:20.289742500Z [WARNING] DbModule Slow response from upstream service
+00003354 2026-05-30T01:53:20.298742500Z [ERROR] CoreModule Authorization rejected for user
+00003355 2026-05-30T01:53:20.304742500Z [WARNING] NetModule High memory usage detected (85%)
+00003359 2026-05-30T01:53:20.438742500Z [WARNING] DbModule High memory usage detected (85%)
+00003363 2026-05-30T01:53:20.680742500Z [WARNING] NetModule Slow response from upstream service
+00003365 2026-05-30T01:53:20.732742500Z [WARNING] CacheModule Deprecated API endpoint used
+00003373 2026-05-30T01:53:20.986742500Z [CRITICAL] CacheModule Kernel panic in subsystem
+00003376 2026-05-30T01:53:21.128742500Z [WARNING] AuthModule Slow response from upstream service
+00003377 2026-05-30T01:53:21.148742500Z [ERROR] CoreModule Authorization rejected for user
+00003384 2026-05-30T01:53:21.407742500Z [ERROR] UiModule Failed to parse JSON payload
+00003386 2026-05-30T01:53:21.454742500Z [WARNING] DbModule High memory usage detected (85%)
+00003395 2026-05-30T01:53:21.778742500Z [ERROR] CoreModule Authorization rejected for user
+00003403 2026-05-30T01:53:22.081742500Z [WARNING] ApiModule Slow response from upstream service
+00003404 2026-05-30T01:53:22.181742500Z [ERROR] CoreModule Authorization rejected for user
+00003407 2026-05-30T01:53:22.286742500Z [WARNING] NetModule Deprecated API endpoint used
+00003415 2026-05-30T01:53:22.551742500Z [WARNING] UiModule Slow response from upstream service
+00003416 2026-05-30T01:53:22.582742500Z [WARNING] DbModule High memory usage detected (85%)
+00003420 2026-05-30T01:53:22.775742500Z [WARNING] DbModule Deprecated API endpoint used
+00003421 2026-05-30T01:53:22.731742500Z [ERROR] DbModule File not found: config.yaml
+00003423 2026-05-30T01:53:22.867742500Z [ERROR] ApiModule Failed to parse JSON payload
+00003424 2026-05-30T01:53:22.878742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00003426 2026-05-30T01:53:23.012742500Z [WARNING] DbModule Retry attempt 2 of 3
+00003428 2026-05-30T01:53:23.042742500Z [ERROR] DbModule Authorization rejected for user
+00003433 2026-05-30T01:53:23.269742500Z [ERROR] NetModule Authorization rejected for user
+00003436 2026-05-30T01:53:23.380742500Z [WARNING] ApiModule Slow response from upstream service
+00003438 2026-05-30T01:53:23.448742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00003439 2026-05-30T01:53:23.397742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003444 2026-05-30T01:53:23.587742500Z [ERROR] UiModule Authorization rejected for user
+00003447 2026-05-30T01:53:23.763742500Z [WARNING] AuthModule High memory usage detected (85%)
+00003449 2026-05-30T01:53:23.853742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003458 2026-05-30T01:53:24.125742500Z [ERROR] UiModule Null pointer in handler
+00003461 2026-05-30T01:53:24.213742500Z [WARNING] DbModule Deprecated API endpoint used
+00003465 2026-05-30T01:53:24.411742500Z [CRITICAL] CacheModule Kernel panic in subsystem
+00003469 2026-05-30T01:53:24.560742500Z [WARNING] DbModule Deprecated API endpoint used
+00003471 2026-05-30T01:53:24.658742500Z [WARNING] CoreModule Deprecated API endpoint used
+00003481 2026-05-30T01:53:24.978742500Z [ERROR] NetModule Null pointer in handler
+00003484 2026-05-30T01:53:25.071742500Z [ERROR] NetModule Connection timeout to database
+00003491 2026-05-30T01:53:25.323742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00003492 2026-05-30T01:53:25.401742500Z [WARNING] CacheModule Deprecated API endpoint used
+00003495 2026-05-30T01:53:25.480742500Z [ERROR] DbModule Connection timeout to database
+00003501 2026-05-30T01:53:25.699742500Z [WARNING] CacheModule High memory usage detected (85%)
+00003502 2026-05-30T01:53:25.791742500Z [CRITICAL] DbModule Kernel panic in subsystem
+00003504 2026-05-30T01:53:25.867742500Z [WARNING] DbModule Slow response from upstream service
+00003507 2026-05-30T01:53:25.956742500Z [ERROR] CoreModule Null pointer in handler
+00003509 2026-05-30T01:53:25.998742500Z [WARNING] AuthModule Slow response from upstream service
+00003510 2026-05-30T01:53:26.036742500Z [CRITICAL] DbModule Out of memory, shutting down
+00003513 2026-05-30T01:53:26.138742500Z [WARNING] NetModule Slow response from upstream service
+00003514 2026-05-30T01:53:26.196742500Z [ERROR] UiModule File not found: config.yaml
+00003515 2026-05-30T01:53:26.287742500Z [ERROR] CoreModule Authorization rejected for user
+00003520 2026-05-30T01:53:26.407742500Z [WARNING] NetModule Deprecated API endpoint used
+00003524 2026-05-30T01:53:26.580742500Z [WARNING] UiModule Deprecated API endpoint used
+00003532 2026-05-30T01:53:26.886742500Z [WARNING] CacheModule Deprecated API endpoint used
+00003539 2026-05-30T01:53:27.184742500Z [WARNING] UiModule Retry attempt 2 of 3
+00003541 2026-05-30T01:53:27.245742500Z [WARNING] UiModule High memory usage detected (85%)
+00003545 2026-05-30T01:53:27.352742500Z [WARNING] CacheModule High memory usage detected (85%)
+00003555 2026-05-30T01:53:27.782742500Z [WARNING] CacheModule Slow response from upstream service
+00003556 2026-05-30T01:53:27.742742500Z [WARNING] UiModule Retry attempt 2 of 3
+00003557 2026-05-30T01:53:27.813742500Z [ERROR] DbModule Connection timeout to database
+00003567 2026-05-30T01:53:28.214742500Z [WARNING] NetModule High memory usage detected (85%)
+00003577 2026-05-30T01:53:28.576742500Z [CRITICAL] AuthModule Out of memory, shutting down
+00003585 2026-05-30T01:53:28.833742500Z [WARNING] CoreModule Slow response from upstream service
+00003590 2026-05-30T01:53:29.012742500Z [ERROR] ApiModule Failed to parse JSON payload
+00003591 2026-05-30T01:53:29.110742500Z [WARNING] AuthModule High memory usage detected (85%)
+00003592 2026-05-30T01:53:29.154742500Z [WARNING] AuthModule Deprecated API endpoint used
+00003595 2026-05-30T01:53:29.248742500Z [ERROR] CoreModule Authorization rejected for user
+00003599 2026-05-30T01:53:29.405742500Z [WARNING] AuthModule Slow response from upstream service
+00003605 2026-05-30T01:53:29.619742500Z [WARNING] NetModule Retry attempt 2 of 3
+00003608 2026-05-30T01:53:29.677742500Z [ERROR] DbModule File not found: config.yaml
+00003609 2026-05-30T01:53:29.731742500Z [ERROR] NetModule Null pointer in handler
+00003610 2026-05-30T01:53:29.770742500Z [WARNING] NetModule High memory usage detected (85%)
+00003611 2026-05-30T01:53:29.781742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00003613 2026-05-30T01:53:29.933742500Z [WARNING] AuthModule Deprecated API endpoint used
+00003614 2026-05-30T01:53:29.919742500Z [ERROR] CacheModule Failed to parse JSON payload
+00003615 2026-05-30T01:53:29.989742500Z [WARNING] NetModule Deprecated API endpoint used
+00003617 2026-05-30T01:53:29.994742500Z [WARNING] UiModule Deprecated API endpoint used
+00003620 2026-05-30T01:53:30.125742500Z [WARNING] NetModule Retry attempt 2 of 3
+00003627 2026-05-30T01:53:30.417742500Z [WARNING] DbModule High memory usage detected (85%)
+00003628 2026-05-30T01:53:30.418742500Z [WARNING] UiModule High memory usage detected (85%)
+00003630 2026-05-30T01:53:30.495742500Z [WARNING] DbModule Deprecated API endpoint used
+00003632 2026-05-30T01:53:30.541742500Z [ERROR] UiModule File not found: config.yaml
+00003635 2026-05-30T01:53:30.673742500Z [WARNING] CacheModule Slow response from upstream service
+00003636 2026-05-30T01:53:30.762742500Z [WARNING] UiModule Slow response from upstream service
+00003637 2026-05-30T01:53:30.757742500Z [WARNING] NetModule Retry attempt 2 of 3
+00003642 2026-05-30T01:53:30.975742500Z [ERROR] UiModule Null pointer in handler
+00003645 2026-05-30T01:53:31.109742500Z [WARNING] DbModule High memory usage detected (85%)
+00003649 2026-05-30T01:53:31.197742500Z [ERROR] AuthModule Authorization rejected for user
+00003650 2026-05-30T01:53:31.275742500Z [WARNING] CoreModule Deprecated API endpoint used
+00003657 2026-05-30T01:53:31.490742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003664 2026-05-30T01:53:31.732742500Z [WARNING] UiModule Retry attempt 2 of 3
+00003665 2026-05-30T01:53:31.795742500Z [WARNING] CoreModule Deprecated API endpoint used
+00003666 2026-05-30T01:53:31.812742500Z [WARNING] UiModule High memory usage detected (85%)
+00003669 2026-05-30T01:53:31.975742500Z [ERROR] CoreModule File not found: config.yaml
+00003673 2026-05-30T01:53:32.073742500Z [ERROR] ApiModule Authorization rejected for user
+00003677 2026-05-30T01:53:32.212742500Z [CRITICAL] CoreModule Out of memory, shutting down
+00003682 2026-05-30T01:53:32.438742500Z [WARNING] ApiModule High memory usage detected (85%)
+00003694 2026-05-30T01:53:32.865742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00003695 2026-05-30T01:53:32.967742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00003696 2026-05-30T01:53:32.921742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003697 2026-05-30T01:53:33.008742500Z [WARNING] UiModule Slow response from upstream service
+00003705 2026-05-30T01:53:33.323742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00003706 2026-05-30T01:53:33.303742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00003707 2026-05-30T01:53:33.382742500Z [ERROR] DbModule Authorization rejected for user
+00003712 2026-05-30T01:53:33.565742500Z [WARNING] AuthModule High memory usage detected (85%)
+00003714 2026-05-30T01:53:33.582742500Z [WARNING] CoreModule Slow response from upstream service
+00003715 2026-05-30T01:53:33.644742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00003718 2026-05-30T01:53:33.776742500Z [ERROR] NetModule File not found: config.yaml
+00003719 2026-05-30T01:53:33.771742500Z [CRITICAL] CoreModule Unrecoverable error in main loop
+00003723 2026-05-30T01:53:33.971742500Z [WARNING] AuthModule Deprecated API endpoint used
+00003725 2026-05-30T01:53:34.046742500Z [CRITICAL] CacheModule Kernel panic in subsystem
+00003726 2026-05-30T01:53:34.025742500Z [WARNING] NetModule Retry attempt 2 of 3
+00003727 2026-05-30T01:53:34.072742500Z [ERROR] ApiModule Failed to parse JSON payload
+00003729 2026-05-30T01:53:34.207742500Z [WARNING] CacheModule High memory usage detected (85%)
+00003730 2026-05-30T01:53:34.258742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00003744 2026-05-30T01:53:34.768742500Z [CRITICAL] CoreModule Unrecoverable error in main loop
+00003747 2026-05-30T01:53:34.882742500Z [ERROR] AuthModule Failed to parse JSON payload
+00003759 2026-05-30T01:53:35.304742500Z [WARNING] ApiModule High memory usage detected (85%)
+00003761 2026-05-30T01:53:35.361742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003763 2026-05-30T01:53:35.437742500Z [WARNING] CoreModule Slow response from upstream service
+00003765 2026-05-30T01:53:35.489742500Z [ERROR] DbModule Connection timeout to database
+00003768 2026-05-30T01:53:35.621742500Z [WARNING] ApiModule Slow response from upstream service
+00003791 2026-05-30T01:53:36.503742500Z [WARNING] NetModule Deprecated API endpoint used
+00003795 2026-05-30T01:53:36.648742500Z [WARNING] UiModule Retry attempt 2 of 3
+00003796 2026-05-30T01:53:36.658742500Z [WARNING] NetModule Slow response from upstream service
+00003797 2026-05-30T01:53:36.692742500Z [WARNING] NetModule Slow response from upstream service
+00003800 2026-05-30T01:53:36.758742500Z [ERROR] AuthModule Connection timeout to database
+00003801 2026-05-30T01:53:36.842742500Z [CRITICAL] DbModule Kernel panic in subsystem
+00003810 2026-05-30T01:53:37.144742500Z [ERROR] AuthModule File not found: config.yaml
+00003814 2026-05-30T01:53:37.365742500Z [WARNING] NetModule Deprecated API endpoint used
+00003825 2026-05-30T01:53:37.696742500Z [WARNING] UiModule High memory usage detected (85%)
+00003831 2026-05-30T01:53:37.921742500Z [ERROR] NetModule Failed to parse JSON payload
+00003832 2026-05-30T01:53:38.013742500Z [WARNING] DbModule High memory usage detected (85%)
+00003837 2026-05-30T01:53:38.127742500Z [WARNING] ApiModule Slow response from upstream service
+00003851 2026-05-30T01:53:38.683742500Z [ERROR] NetModule File not found: config.yaml
+00003852 2026-05-30T01:53:38.681742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00003853 2026-05-30T01:53:38.806742500Z [WARNING] UiModule High memory usage detected (85%)
+00003859 2026-05-30T01:53:38.986742500Z [ERROR] UiModule Connection timeout to database
+00003860 2026-05-30T01:53:38.983742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00003869 2026-05-30T01:53:39.309742500Z [WARNING] ApiModule High memory usage detected (85%)
+00003871 2026-05-30T01:53:39.425742500Z [ERROR] AuthModule Connection timeout to database
+00003875 2026-05-30T01:53:39.581742500Z [WARNING] ApiModule Slow response from upstream service
+00003877 2026-05-30T01:53:39.607742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00003880 2026-05-30T01:53:39.770742500Z [ERROR] AuthModule Connection timeout to database
+00003882 2026-05-30T01:53:39.789742500Z [WARNING] AuthModule High memory usage detected (85%)
+00003889 2026-05-30T01:53:40.110742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00003894 2026-05-30T01:53:40.277742500Z [WARNING] AuthModule High memory usage detected (85%)
+00003895 2026-05-30T01:53:40.302742500Z [WARNING] UiModule Retry attempt 2 of 3
+00003897 2026-05-30T01:53:40.343742500Z [ERROR] CoreModule Failed to parse JSON payload
+00003904 2026-05-30T01:53:40.633742500Z [CRITICAL] ApiModule Unrecoverable error in main loop
+00003905 2026-05-30T01:53:40.672742500Z [ERROR] DbModule Failed to parse JSON payload
+00003909 2026-05-30T01:53:40.793742500Z [WARNING] CacheModule Slow response from upstream service
+00003912 2026-05-30T01:53:40.965742500Z [ERROR] UiModule Connection timeout to database
+00003915 2026-05-30T01:53:41.068742500Z [WARNING] ApiModule Slow response from upstream service
+00003918 2026-05-30T01:53:41.192742500Z [ERROR] AuthModule Failed to parse JSON payload
+00003921 2026-05-30T01:53:41.260742500Z [ERROR] NetModule Authorization rejected for user
+00003927 2026-05-30T01:53:41.484742500Z [WARNING] UiModule Retry attempt 2 of 3
+00003928 2026-05-30T01:53:41.560742500Z [WARNING] ApiModule Deprecated API endpoint used
+00003931 2026-05-30T01:53:41.630742500Z [WARNING] UiModule Retry attempt 2 of 3
+00003937 2026-05-30T01:53:41.870742500Z [WARNING] CacheModule Slow response from upstream service
+00003938 2026-05-30T01:53:41.959742500Z [CRITICAL] NetModule Kernel panic in subsystem
+00003940 2026-05-30T01:53:42.019742500Z [WARNING] NetModule Slow response from upstream service
+00003957 2026-05-30T01:53:42.654742500Z [WARNING] AuthModule High memory usage detected (85%)
+00003960 2026-05-30T01:53:42.761742500Z [ERROR] CacheModule Connection timeout to database
+00003964 2026-05-30T01:53:42.825742500Z [ERROR] CoreModule Authorization rejected for user
+00003967 2026-05-30T01:53:42.952742500Z [ERROR] DbModule Connection timeout to database
+00003982 2026-05-30T01:53:43.558742500Z [ERROR] DbModule Null pointer in handler
+00003991 2026-05-30T01:53:43.828742500Z [WARNING] CoreModule Slow response from upstream service
+00003993 2026-05-30T01:53:43.946742500Z [WARNING] UiModule Slow response from upstream service
+00003997 2026-05-30T01:53:44.102742500Z [WARNING] CoreModule Deprecated API endpoint used
+00004006 2026-05-30T01:53:44.419742500Z [WARNING] CoreModule High memory usage detected (85%)
+00004008 2026-05-30T01:53:44.486742500Z [ERROR] CoreModule File not found: config.yaml
+00004018 2026-05-30T01:53:44.869742500Z [WARNING] NetModule Slow response from upstream service
+00004020 2026-05-30T01:53:44.983742500Z [ERROR] CoreModule Null pointer in handler
+00004021 2026-05-30T01:53:44.997742500Z [CRITICAL] CoreModule Out of memory, shutting down
+00004022 2026-05-30T01:53:44.988742500Z [WARNING] CacheModule Deprecated API endpoint used
+00004024 2026-05-30T01:53:45.079742500Z [WARNING] ApiModule Slow response from upstream service
+00004026 2026-05-30T01:53:45.174742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00004027 2026-05-30T01:53:45.162742500Z [ERROR] NetModule Null pointer in handler
+00004036 2026-05-30T01:53:45.490742500Z [ERROR] CoreModule Authorization rejected for user
+00004049 2026-05-30T01:53:45.991742500Z [WARNING] UiModule Slow response from upstream service
+00004062 2026-05-30T01:53:46.493742500Z [WARNING] NetModule High memory usage detected (85%)
+00004064 2026-05-30T01:53:46.588742500Z [ERROR] NetModule Authorization rejected for user
+00004066 2026-05-30T01:53:46.674742500Z [WARNING] CoreModule High memory usage detected (85%)
+00004067 2026-05-30T01:53:46.710742500Z [WARNING] AuthModule Slow response from upstream service
+00004068 2026-05-30T01:53:46.760742500Z [ERROR] AuthModule Failed to parse JSON payload
+00004075 2026-05-30T01:53:46.960742500Z [ERROR] DbModule Authorization rejected for user
+00004078 2026-05-30T01:53:47.130742500Z [WARNING] DbModule Slow response from upstream service
+00004081 2026-05-30T01:53:47.241742500Z [WARNING] DbModule Deprecated API endpoint used
+00004082 2026-05-30T01:53:47.190742500Z [ERROR] ApiModule Null pointer in handler
+00004091 2026-05-30T01:53:47.594742500Z [ERROR] ApiModule Authorization rejected for user
+00004094 2026-05-30T01:53:47.648742500Z [WARNING] DbModule Slow response from upstream service
+00004100 2026-05-30T01:53:47.952742500Z [CRITICAL] CacheModule Kernel panic in subsystem
+00004109 2026-05-30T01:53:48.244742500Z [WARNING] NetModule High memory usage detected (85%)
+00004110 2026-05-30T01:53:48.285742500Z [WARNING] ApiModule Slow response from upstream service
+00004112 2026-05-30T01:53:48.325742500Z [ERROR] CoreModule Null pointer in handler
+00004113 2026-05-30T01:53:48.375742500Z [ERROR] DbModule Authorization rejected for user
+00004124 2026-05-30T01:53:48.757742500Z [ERROR] ApiModule File not found: config.yaml
+00004130 2026-05-30T01:53:49.006742500Z [WARNING] CacheModule Slow response from upstream service
+00004136 2026-05-30T01:53:49.186742500Z [CRITICAL] CacheModule Out of memory, shutting down
+00004138 2026-05-30T01:53:49.312742500Z [WARNING] CoreModule Slow response from upstream service
+00004143 2026-05-30T01:53:49.459742500Z [ERROR] AuthModule Null pointer in handler
+00004154 2026-05-30T01:53:49.904742500Z [ERROR] CoreModule Null pointer in handler
+00004157 2026-05-30T01:53:49.982742500Z [ERROR] CacheModule File not found: config.yaml
+00004159 2026-05-30T01:53:50.114742500Z [ERROR] NetModule Null pointer in handler
+00004161 2026-05-30T01:53:50.119742500Z [WARNING] CacheModule Slow response from upstream service
+00004166 2026-05-30T01:53:50.349742500Z [ERROR] ApiModule Connection timeout to database
+00004169 2026-05-30T01:53:50.426742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004172 2026-05-30T01:53:50.571742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00004173 2026-05-30T01:53:50.585742500Z [WARNING] UiModule High memory usage detected (85%)
+00004177 2026-05-30T01:53:50.785742500Z [WARNING] UiModule Slow response from upstream service
+00004180 2026-05-30T01:53:50.833742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00004181 2026-05-30T01:53:50.862742500Z [ERROR] UiModule Authorization rejected for user
+00004183 2026-05-30T01:53:51.011742500Z [ERROR] UiModule File not found: config.yaml
+00004186 2026-05-30T01:53:51.131742500Z [ERROR] AuthModule Authorization rejected for user
+00004191 2026-05-30T01:53:51.222742500Z [WARNING] NetModule Retry attempt 2 of 3
+00004197 2026-05-30T01:53:51.507742500Z [WARNING] UiModule Retry attempt 2 of 3
+00004200 2026-05-30T01:53:51.583742500Z [WARNING] NetModule Retry attempt 2 of 3
+00004202 2026-05-30T01:53:51.658742500Z [WARNING] CoreModule Deprecated API endpoint used
+00004208 2026-05-30T01:53:51.894742500Z [ERROR] ApiModule Authorization rejected for user
+00004222 2026-05-30T01:53:52.405742500Z [WARNING] CacheModule High memory usage detected (85%)
+00004227 2026-05-30T01:53:52.561742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004229 2026-05-30T01:53:52.682742500Z [ERROR] DbModule Null pointer in handler
+00004234 2026-05-30T01:53:52.870742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004235 2026-05-30T01:53:52.906742500Z [WARNING] AuthModule Slow response from upstream service
+00004236 2026-05-30T01:53:52.896742500Z [WARNING] CoreModule Slow response from upstream service
+00004240 2026-05-30T01:53:53.105742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00004245 2026-05-30T01:53:53.303742500Z [WARNING] ApiModule High memory usage detected (85%)
+00004247 2026-05-30T01:53:53.351742500Z [WARNING] UiModule Slow response from upstream service
+00004250 2026-05-30T01:53:53.404742500Z [WARNING] NetModule Slow response from upstream service
+00004252 2026-05-30T01:53:53.559742500Z [WARNING] UiModule Slow response from upstream service
+00004253 2026-05-30T01:53:53.558742500Z [WARNING] NetModule High memory usage detected (85%)
+00004254 2026-05-30T01:53:53.613742500Z [WARNING] DbModule Retry attempt 2 of 3
+00004257 2026-05-30T01:53:53.671742500Z [CRITICAL] NetModule Unrecoverable error in main loop
+00004259 2026-05-30T01:53:53.742742500Z [WARNING] CacheModule Deprecated API endpoint used
+00004271 2026-05-30T01:53:54.252742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00004280 2026-05-30T01:53:54.528742500Z [WARNING] CoreModule Deprecated API endpoint used
+00004282 2026-05-30T01:53:54.678742500Z [ERROR] UiModule Connection timeout to database
+00004283 2026-05-30T01:53:54.655742500Z [WARNING] CoreModule High memory usage detected (85%)
+00004288 2026-05-30T01:53:54.906742500Z [ERROR] DbModule Failed to parse JSON payload
+00004296 2026-05-30T01:53:55.187742500Z [WARNING] UiModule Deprecated API endpoint used
+00004298 2026-05-30T01:53:55.279742500Z [ERROR] UiModule Connection timeout to database
+00004306 2026-05-30T01:53:55.558742500Z [WARNING] CoreModule High memory usage detected (85%)
+00004307 2026-05-30T01:53:55.609742500Z [WARNING] UiModule High memory usage detected (85%)
+00004310 2026-05-30T01:53:55.643742500Z [ERROR] CoreModule File not found: config.yaml
+00004312 2026-05-30T01:53:55.705742500Z [ERROR] DbModule File not found: config.yaml
+00004316 2026-05-30T01:53:55.893742500Z [ERROR] NetModule File not found: config.yaml
+00004319 2026-05-30T01:53:56.034742500Z [ERROR] AuthModule Authorization rejected for user
+00004322 2026-05-30T01:53:56.156742500Z [WARNING] DbModule Deprecated API endpoint used
+00004330 2026-05-30T01:53:56.383742500Z [ERROR] NetModule Null pointer in handler
+00004336 2026-05-30T01:53:56.680742500Z [WARNING] ApiModule Slow response from upstream service
+00004341 2026-05-30T01:53:56.773742500Z [WARNING] NetModule Deprecated API endpoint used
+00004342 2026-05-30T01:53:56.879742500Z [ERROR] CacheModule Connection timeout to database
+00004343 2026-05-30T01:53:56.931742500Z [WARNING] AuthModule Deprecated API endpoint used
+00004349 2026-05-30T01:53:57.149742500Z [ERROR] NetModule Authorization rejected for user
+00004353 2026-05-30T01:53:57.262742500Z [WARNING] UiModule Deprecated API endpoint used
+00004354 2026-05-30T01:53:57.319742500Z [WARNING] AuthModule Slow response from upstream service
+00004355 2026-05-30T01:53:57.370742500Z [ERROR] NetModule Connection timeout to database
+00004361 2026-05-30T01:53:57.547742500Z [WARNING] NetModule Retry attempt 2 of 3
+00004362 2026-05-30T01:53:57.554742500Z [ERROR] ApiModule Connection timeout to database
+00004363 2026-05-30T01:53:57.641742500Z [WARNING] NetModule High memory usage detected (85%)
+00004365 2026-05-30T01:53:57.695742500Z [ERROR] CoreModule Failed to parse JSON payload
+00004370 2026-05-30T01:53:57.868742500Z [ERROR] UiModule Connection timeout to database
+00004373 2026-05-30T01:53:58.001742500Z [WARNING] CacheModule High memory usage detected (85%)
+00004374 2026-05-30T01:53:58.033742500Z [WARNING] AuthModule Slow response from upstream service
+00004385 2026-05-30T01:53:58.467742500Z [ERROR] DbModule Connection timeout to database
+00004387 2026-05-30T01:53:58.549742500Z [WARNING] NetModule Retry attempt 2 of 3
+00004397 2026-05-30T01:53:58.892742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00004400 2026-05-30T01:53:59.006742500Z [WARNING] UiModule Slow response from upstream service
+00004405 2026-05-30T01:53:59.228742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004408 2026-05-30T01:53:59.313742500Z [WARNING] NetModule Deprecated API endpoint used
+00004419 2026-05-30T01:53:59.671742500Z [CRITICAL] UiModule Unrecoverable error in main loop
+00004424 2026-05-30T01:53:59.912742500Z [WARNING] CoreModule High memory usage detected (85%)
+00004427 2026-05-30T01:53:59.994742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00004432 2026-05-30T01:54:00.157742500Z [WARNING] CoreModule High memory usage detected (85%)
+00004433 2026-05-30T01:54:00.198742500Z [ERROR] CacheModule Null pointer in handler
+00004434 2026-05-30T01:54:00.299742500Z [ERROR] UiModule Null pointer in handler
+00004437 2026-05-30T01:54:00.421742500Z [WARNING] CoreModule Slow response from upstream service
+00004439 2026-05-30T01:54:00.402742500Z [WARNING] AuthModule Slow response from upstream service
+00004449 2026-05-30T01:54:00.820742500Z [ERROR] AuthModule Connection timeout to database
+00004452 2026-05-30T01:54:00.901742500Z [ERROR] CoreModule Authorization rejected for user
+00004456 2026-05-30T01:54:01.058742500Z [ERROR] DbModule File not found: config.yaml
+00004460 2026-05-30T01:54:01.200742500Z [WARNING] DbModule Deprecated API endpoint used
+00004465 2026-05-30T01:54:01.359742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00004466 2026-05-30T01:54:01.417742500Z [ERROR] DbModule Authorization rejected for user
+00004468 2026-05-30T01:54:01.527742500Z [WARNING] AuthModule Deprecated API endpoint used
+00004469 2026-05-30T01:54:01.513742500Z [WARNING] CacheModule High memory usage detected (85%)
+00004477 2026-05-30T01:54:01.815742500Z [WARNING] CoreModule Slow response from upstream service
+00004483 2026-05-30T01:54:02.095742500Z [WARNING] AuthModule Slow response from upstream service
+00004489 2026-05-30T01:54:02.339742500Z [WARNING] UiModule High memory usage detected (85%)
+00004493 2026-05-30T01:54:02.414742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00004501 2026-05-30T01:54:02.779742500Z [WARNING] UiModule Retry attempt 2 of 3
+00004502 2026-05-30T01:54:02.762742500Z [CRITICAL] NetModule Disk full, cannot continue
+00004517 2026-05-30T01:54:03.285742500Z [WARNING] NetModule Slow response from upstream service
+00004523 2026-05-30T01:54:03.592742500Z [CRITICAL] CoreModule Unrecoverable error in main loop
+00004525 2026-05-30T01:54:03.593742500Z [ERROR] UiModule File not found: config.yaml
+00004526 2026-05-30T01:54:03.707742500Z [WARNING] ApiModule Retry attempt 2 of 3
+00004536 2026-05-30T01:54:04.042742500Z [WARNING] ApiModule High memory usage detected (85%)
+00004540 2026-05-30T01:54:04.138742500Z [ERROR] ApiModule File not found: config.yaml
+00004542 2026-05-30T01:54:04.230742500Z [WARNING] DbModule Deprecated API endpoint used
+00004557 2026-05-30T01:54:04.767742500Z [WARNING] CacheModule Deprecated API endpoint used
+00004570 2026-05-30T01:54:05.296742500Z [WARNING] ApiModule Deprecated API endpoint used
+00004578 2026-05-30T01:54:05.577742500Z [ERROR] ApiModule Authorization rejected for user
+00004582 2026-05-30T01:54:05.777742500Z [WARNING] ApiModule High memory usage detected (85%)
+00004588 2026-05-30T01:54:05.975742500Z [ERROR] AuthModule Connection timeout to database
+00004590 2026-05-30T01:54:06.029742500Z [WARNING] CacheModule High memory usage detected (85%)
+00004594 2026-05-30T01:54:06.177742500Z [ERROR] NetModule File not found: config.yaml
+00004605 2026-05-30T01:54:06.617742500Z [WARNING] AuthModule Deprecated API endpoint used
+00004607 2026-05-30T01:54:06.698742500Z [WARNING] UiModule Retry attempt 2 of 3
+00004612 2026-05-30T01:54:06.866742500Z [ERROR] DbModule Connection timeout to database
+00004623 2026-05-30T01:54:07.268742500Z [ERROR] CoreModule File not found: config.yaml
+00004628 2026-05-30T01:54:07.436742500Z [ERROR] NetModule Authorization rejected for user
+00004632 2026-05-30T01:54:07.614742500Z [WARNING] DbModule Retry attempt 2 of 3
+00004633 2026-05-30T01:54:07.611742500Z [ERROR] CoreModule Connection timeout to database
+00004641 2026-05-30T01:54:07.966742500Z [WARNING] DbModule Deprecated API endpoint used
+00004642 2026-05-30T01:54:07.926742500Z [CRITICAL] NetModule Unrecoverable error in main loop
+00004645 2026-05-30T01:54:08.023742500Z [ERROR] ApiModule File not found: config.yaml
+00004647 2026-05-30T01:54:08.178742500Z [WARNING] UiModule High memory usage detected (85%)
+00004650 2026-05-30T01:54:08.277742500Z [ERROR] CacheModule Connection timeout to database
+00004652 2026-05-30T01:54:08.293742500Z [WARNING] NetModule Slow response from upstream service
+00004660 2026-05-30T01:54:08.670742500Z [WARNING] DbModule Deprecated API endpoint used
+00004661 2026-05-30T01:54:08.643742500Z [WARNING] UiModule Deprecated API endpoint used
+00004663 2026-05-30T01:54:08.742742500Z [WARNING] CacheModule Slow response from upstream service
+00004664 2026-05-30T01:54:08.790742500Z [ERROR] CoreModule File not found: config.yaml
+00004665 2026-05-30T01:54:08.821742500Z [ERROR] CoreModule Null pointer in handler
+00004668 2026-05-30T01:54:08.894742500Z [ERROR] CoreModule Failed to parse JSON payload
+00004676 2026-05-30T01:54:09.262742500Z [ERROR] NetModule File not found: config.yaml
+00004682 2026-05-30T01:54:09.425742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004688 2026-05-30T01:54:09.649742500Z [WARNING] ApiModule High memory usage detected (85%)
+00004694 2026-05-30T01:54:09.895742500Z [WARNING] AuthModule High memory usage detected (85%)
+00004695 2026-05-30T01:54:09.937742500Z [WARNING] CoreModule High memory usage detected (85%)
+00004699 2026-05-30T01:54:10.110742500Z [ERROR] NetModule Connection timeout to database
+00004700 2026-05-30T01:54:10.114742500Z [ERROR] CoreModule File not found: config.yaml
+00004709 2026-05-30T01:54:10.450742500Z [WARNING] DbModule Slow response from upstream service
+00004711 2026-05-30T01:54:10.510742500Z [CRITICAL] AuthModule Kernel panic in subsystem
+00004715 2026-05-30T01:54:10.624742500Z [ERROR] CoreModule File not found: config.yaml
+00004716 2026-05-30T01:54:10.654742500Z [WARNING] AuthModule High memory usage detected (85%)
+00004725 2026-05-30T01:54:11.056742500Z [WARNING] NetModule Slow response from upstream service
+00004731 2026-05-30T01:54:11.203742500Z [WARNING] CacheModule High memory usage detected (85%)
+00004732 2026-05-30T01:54:11.285742500Z [ERROR] NetModule Authorization rejected for user
+00004736 2026-05-30T01:54:11.399742500Z [WARNING] DbModule Slow response from upstream service
+00004741 2026-05-30T01:54:11.597742500Z [ERROR] CoreModule File not found: config.yaml
+00004743 2026-05-30T01:54:11.686742500Z [ERROR] AuthModule Null pointer in handler
+00004745 2026-05-30T01:54:11.815742500Z [WARNING] CoreModule Slow response from upstream service
+00004746 2026-05-30T01:54:11.816742500Z [WARNING] UiModule Slow response from upstream service
+00004749 2026-05-30T01:54:11.952742500Z [WARNING] UiModule Slow response from upstream service
+00004765 2026-05-30T01:54:12.515742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004766 2026-05-30T01:54:12.567742500Z [WARNING] ApiModule Deprecated API endpoint used
+00004769 2026-05-30T01:54:12.690742500Z [WARNING] AuthModule Slow response from upstream service
+00004786 2026-05-30T01:54:13.272742500Z [WARNING] AuthModule High memory usage detected (85%)
+00004793 2026-05-30T01:54:13.496742500Z [WARNING] CacheModule High memory usage detected (85%)
+00004794 2026-05-30T01:54:13.548742500Z [WARNING] DbModule Slow response from upstream service
+00004795 2026-05-30T01:54:13.598742500Z [WARNING] UiModule High memory usage detected (85%)
+00004796 2026-05-30T01:54:13.630742500Z [ERROR] AuthModule Failed to parse JSON payload
+00004797 2026-05-30T01:54:13.697742500Z [WARNING] ApiModule Deprecated API endpoint used
+00004798 2026-05-30T01:54:13.718742500Z [WARNING] UiModule Deprecated API endpoint used
+00004800 2026-05-30T01:54:13.783742500Z [ERROR] DbModule File not found: config.yaml
+00004803 2026-05-30T01:54:13.931742500Z [WARNING] UiModule Slow response from upstream service
+00004804 2026-05-30T01:54:13.905742500Z [WARNING] CoreModule Deprecated API endpoint used
+00004807 2026-05-30T01:54:14.061742500Z [WARNING] CacheModule Deprecated API endpoint used
+00004813 2026-05-30T01:54:14.321742500Z [WARNING] NetModule Retry attempt 2 of 3
+00004816 2026-05-30T01:54:14.417742500Z [WARNING] NetModule High memory usage detected (85%)
+00004820 2026-05-30T01:54:14.538742500Z [WARNING] ApiModule Slow response from upstream service
+00004821 2026-05-30T01:54:14.622742500Z [CRITICAL] AuthModule Disk full, cannot continue
+00004827 2026-05-30T01:54:14.759742500Z [CRITICAL] ApiModule Disk full, cannot continue
+00004831 2026-05-30T01:54:14.957742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004845 2026-05-30T01:54:15.497742500Z [ERROR] DbModule Failed to parse JSON payload
+00004847 2026-05-30T01:54:15.523742500Z [ERROR] CoreModule File not found: config.yaml
+00004848 2026-05-30T01:54:15.625742500Z [WARNING] AuthModule Deprecated API endpoint used
+00004851 2026-05-30T01:54:15.719742500Z [ERROR] AuthModule Failed to parse JSON payload
+00004852 2026-05-30T01:54:15.763742500Z [ERROR] NetModule Connection timeout to database
+00004858 2026-05-30T01:54:15.952742500Z [WARNING] AuthModule High memory usage detected (85%)
+00004859 2026-05-30T01:54:16.030742500Z [WARNING] ApiModule High memory usage detected (85%)
+00004864 2026-05-30T01:54:16.146742500Z [ERROR] ApiModule Authorization rejected for user
+00004870 2026-05-30T01:54:16.436742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004872 2026-05-30T01:54:16.435742500Z [ERROR] NetModule Connection timeout to database
+00004878 2026-05-30T01:54:16.736742500Z [ERROR] DbModule Connection timeout to database
+00004880 2026-05-30T01:54:16.727742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00004882 2026-05-30T01:54:16.791742500Z [ERROR] ApiModule Null pointer in handler
+00004884 2026-05-30T01:54:16.883742500Z [ERROR] AuthModule File not found: config.yaml
+00004885 2026-05-30T01:54:16.900742500Z [WARNING] ApiModule High memory usage detected (85%)
+00004889 2026-05-30T01:54:17.049742500Z [WARNING] CoreModule Retry attempt 2 of 3
+00004900 2026-05-30T01:54:17.502742500Z [WARNING] CoreModule Slow response from upstream service
+00004902 2026-05-30T01:54:17.590742500Z [ERROR] AuthModule Null pointer in handler
+00004904 2026-05-30T01:54:17.696742500Z [ERROR] ApiModule Connection timeout to database
+00004905 2026-05-30T01:54:17.673742500Z [WARNING] AuthModule High memory usage detected (85%)
+00004907 2026-05-30T01:54:17.729742500Z [WARNING] NetModule Deprecated API endpoint used
+00004911 2026-05-30T01:54:17.956742500Z [ERROR] UiModule Authorization rejected for user
+00004912 2026-05-30T01:54:17.995742500Z [CRITICAL] AuthModule Kernel panic in subsystem
+00004913 2026-05-30T01:54:17.954742500Z [ERROR] CacheModule Authorization rejected for user
+00004919 2026-05-30T01:54:18.201742500Z [ERROR] AuthModule Null pointer in handler
+00004920 2026-05-30T01:54:18.228742500Z [WARNING] ApiModule Deprecated API endpoint used
+00004925 2026-05-30T01:54:18.384742500Z [ERROR] CoreModule Null pointer in handler
+00004927 2026-05-30T01:54:18.538742500Z [WARNING] DbModule High memory usage detected (85%)
+00004929 2026-05-30T01:54:18.624742500Z [ERROR] AuthModule Null pointer in handler
+00004930 2026-05-30T01:54:18.575742500Z [CRITICAL] ApiModule Unrecoverable error in main loop
+00004931 2026-05-30T01:54:18.668742500Z [WARNING] ApiModule Slow response from upstream service
+00004932 2026-05-30T01:54:18.691742500Z [WARNING] CacheModule Retry attempt 2 of 3
+00004939 2026-05-30T01:54:18.901742500Z [ERROR] NetModule File not found: config.yaml
+00004940 2026-05-30T01:54:18.936742500Z [ERROR] AuthModule File not found: config.yaml
+00004944 2026-05-30T01:54:19.122742500Z [WARNING] CoreModule Slow response from upstream service
+00004950 2026-05-30T01:54:19.389742500Z [WARNING] CoreModule High memory usage detected (85%)
+00004951 2026-05-30T01:54:19.415742500Z [WARNING] ApiModule High memory usage detected (85%)
+00004956 2026-05-30T01:54:19.618742500Z [WARNING] CoreModule Deprecated API endpoint used
+00004963 2026-05-30T01:54:19.856742500Z [WARNING] NetModule Slow response from upstream service
+00004965 2026-05-30T01:54:19.903742500Z [WARNING] UiModule Slow response from upstream service
+00004968 2026-05-30T01:54:19.973742500Z [WARNING] NetModule High memory usage detected (85%)
+00004971 2026-05-30T01:54:20.103742500Z [ERROR] AuthModule Connection timeout to database
+00004986 2026-05-30T01:54:20.662742500Z [WARNING] UiModule High memory usage detected (85%)
+00004990 2026-05-30T01:54:20.855742500Z [WARNING] DbModule High memory usage detected (85%)
+00004992 2026-05-30T01:54:20.873742500Z [WARNING] ApiModule High memory usage detected (85%)
+00004994 2026-05-30T01:54:20.967742500Z [ERROR] ApiModule Null pointer in handler
+00004995 2026-05-30T01:54:20.971742500Z [WARNING] AuthModule Retry attempt 2 of 3
+00004999 2026-05-30T01:54:21.195742500Z [ERROR] CoreModule Connection timeout to database
