@@ -1,5 +1,12 @@
 package org.Darwyi.login_register_system;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.time.LocalDateTime;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -8,7 +15,7 @@ import java.util.Map;
 import java.util.function.Predicate;
 
 public class UserRegistry {
-    private final HashMap<UserIdentifier, User> users = new HashMap<>();
+    private HashMap<UserIdentifier, User> users = new HashMap<>();
     private int nextId = 1;
 
     public void registerUser(String login, String password) {
@@ -106,6 +113,38 @@ public class UserRegistry {
             }
         }
         return result;
+    }
+
+    public int size() {
+        return users.size();
+    }
+
+    public void saveToFile(String path) throws IOException {
+        try (
+                FileOutputStream     fos = new FileOutputStream(path);
+                BufferedOutputStream bos = new BufferedOutputStream(fos);
+                ObjectOutputStream   oos = new ObjectOutputStream(bos)
+        ) {
+            oos.writeObject(users);
+            oos.writeInt(nextId);
+        }
+    }
+
+    @SuppressWarnings("unchecked")
+    public void loadFromFile(String path) throws IOException, ClassNotFoundException {
+        try (
+                FileInputStream     fis = new FileInputStream(path);
+                BufferedInputStream bis = new BufferedInputStream(fis);
+                ObjectInputStream   ois = new ObjectInputStream(bis)
+        ) {
+            HashMap<UserIdentifier, User> loaded =
+                    (HashMap<UserIdentifier, User>) ois.readObject();
+            int loadedNextId = ois.readInt();
+
+            users.clear();
+            users.putAll(loaded);
+            nextId = loadedNextId;
+        }
     }
 
     private User findUserByName(String login) {

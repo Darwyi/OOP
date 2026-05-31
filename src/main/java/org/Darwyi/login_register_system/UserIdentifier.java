@@ -1,8 +1,12 @@
 package org.Darwyi.login_register_system;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class UserIdentifier {
+public class UserIdentifier implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private final int id;
     private final String name;
 

@@ -1,14 +1,18 @@
 package org.Darwyi.login_register_system;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
-public class User {
+public class User implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private final UserIdentifier identifier;
     private String password;
     private LocalDateTime lastLoginDate;
-    private boolean isLoggedIn;
+    private transient boolean isLoggedIn;
 
     public User(UserIdentifier identifier, String password) {
         this.identifier = identifier;
