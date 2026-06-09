@@ -42,6 +42,7 @@ public class Course implements Serializable {
 
     public void addMaterial(Material m){ materials.add(m); }
     public void enroll(long studentId){ enrolledStudentIds.add(studentId); }
+    public void removeStudent(long studentId){ enrolledStudentIds.remove(studentId); }
 
     public Material findMaterial(long materialId){
         for (Material m : materials) if (m.getId() == materialId) return m;

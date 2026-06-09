@@ -29,6 +29,7 @@ public class SelfTest {
     private static int passed = 0, failed = 0;
 
     public static void run(){
+        System.out.println("=== САМОТЕСТУВАННЯ ===\n");
         testUserRegistration();
         testNonTeacherCannotCreateCourse();
         testBlankTitleValidation();
@@ -42,6 +43,9 @@ public class SelfTest {
         testStatistics();
         testNotifications();
         testSearchCourses();
+        testWithdraw();
+        testRateCourse();
+        testAnalytics();
         testMemento();
         System.out.printf("%nПідсумок: пройдено %d з %d перевірок.%n", passed, passed + failed);
         if (failed > 0) System.out.println("УВАГА: є провалені перевірки!");
@@ -215,6 +219,57 @@ public class SelfTest {
         s.createCourse(t.getId(), "Python для початківців", "опис");
         s.createCourse(t.getId(), "Java Advanced", "опис");
         check("Пошук 'java' знаходить 2 курси", s.searchCoursesByTitle("java").size() == 2);
+    }
+
+    private static void testWithdraw(){
+        EventManager em = new EventManager();
+        StatisticsCollector sc = new StatisticsCollector();
+        em.subscribe(sc);
+        LearningService s = fresh(em);
+        Teacher t = s.registerTeacher("t", "p", "Викл");
+        Student st = s.registerStudent("u", "p", "Іван");
+        Course c = s.createCourse(t.getId(), "Курс", "опис");
+        s.activateCourse(c.getId());
+        s.enroll(st.getId(), c.getId());
+        s.withdraw(st.getId(), c.getId());
+        check("Після скасування на курсі 0 студентів", c.studentCount() == 0);
+        check("Запис видалено зі сховища",
+                DataStore.getInstance().findEnrollment(st.getId(), c.getId()) == null);
+        check("Подію STUDENT_WITHDRAWN зафіксовано", sc.countOf(EventType.STUDENT_WITHDRAWN) == 1);
+        expectThrows("Повторне скасування (EntityNotFoundException)",
+                EntityNotFoundException.class, () -> s.withdraw(st.getId(), c.getId()));
+    }
+
+    private static void testRateCourse(){
+        LearningService s = fresh(new EventManager());
+        Teacher t = s.registerTeacher("t", "p", "Викл");
+        Student a = s.registerStudent("a", "p", "Аня");
+        Student b = s.registerStudent("b", "p", "Богдан");
+        Course c = s.createCourse(t.getId(), "Курс", "опис");
+        s.activateCourse(c.getId());
+        s.enroll(a.getId(), c.getId());
+        s.enroll(b.getId(), c.getId());
+        expectThrows("Некоректна оцінка 6 (ValidationException)",
+                ValidationException.class, () -> s.rateCourse(a.getId(), c.getId(), 6));
+        s.rateCourse(a.getId(), c.getId(), 4);
+        s.rateCourse(b.getId(), c.getId(), 2);
+        check("Середня оцінка курсу = 3.0", Math.abs(s.averageRating(c.getId()) - 3.0) < 1e-9);
+    }
+
+    private static void testAnalytics(){
+        LearningService s = fresh(new EventManager());
+        Teacher t = s.registerTeacher("t", "p", "Викл");
+        Student a = s.registerStudent("a", "p", "Аня");
+        Student b = s.registerStudent("b", "p", "Богдан");
+        Course c = s.createCourse(t.getId(), "Курс", "опис");
+        Material l = s.addLecture(c.getId(), "Л1", "текст");
+        s.activateCourse(c.getId());
+        s.enroll(a.getId(), c.getId());
+        s.enroll(b.getId(), c.getId());
+        s.completeLecture(a.getId(), c.getId(), l.getId());
+        check("Відсоток завершення курсу = 50%", Math.abs(s.completionRate(c.getId()) - 50.0) < 1e-9);
+        check("Топ-курс за популярністю — наш курс",
+                s.topCoursesByEnrollment(5).get(0).getId() == c.getId());
     }
 
     private static void testMemento(){

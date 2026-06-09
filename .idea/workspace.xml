@@ -4,51 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efa59192-1c49-43fa-a17a-2a61fe48e339" name="Changes" comment="practice 13&#10;improved user login\register system by adding logging file which stores a users">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/SelfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/exception/CourseNotActiveException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/exception/DuplicateEnrollmentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/exception/EntityNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/exception/LearningPlatformException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/exception/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/factory/AdminFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/factory/CourseContentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/factory/StandardCourseContentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/factory/StudentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/factory/TeacherFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/factory/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/factory/VideoCourseContentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Certificate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/CourseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Enrollment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Lecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/VideoLecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/EventManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/StatisticsCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/service/LearningService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/storage/DataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/storage/SerializationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/storage/StateCaretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/storage/StoreState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/storage/SystemMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/ui/ConsoleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/login_register_system/users.dat" afterDir="false" />
+    <list default="true" id="efa59192-1c49-43fa-a17a-2a61fe48e339" name="Changes" comment="fix some bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/SelfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/SelfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Enrollment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/EventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/StatisticsCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/observer/StatisticsCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/service/LearningService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/service/LearningService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/storage/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/storage/DataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/ui/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Darwyi/courseProject/ui/ConsoleUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,29 +62,30 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.org.Darwyi.logging.Main.executor": "Run",
-    "Application.org.Darwyi.login_register_system.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/IdeaProjects/OOP/src/main/java/org/Darwyi/courseProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Darwyi.courseProject.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Darwyi.logging.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.Darwyi.login_register_system.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IdeaProjects/OOP/src/main/java/org/Darwyi/courseProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\OOP\src\main\java\org\Darwyi\courseProject" />
@@ -125,7 +95,7 @@
       <recent name="E:\IdeaProjects\OOP\src\main\java\org\Darwyi\login_register_system" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.org.Darwyi.courseProject.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Darwyi.CollectionTypes.Main" />
       <module name="OOP" />
@@ -139,6 +109,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.Darwyi.courseProject.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Darwyi.courseProject.Main" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Darwyi.courseProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.org.Darwyi.courseProject.Main" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -177,7 +164,8 @@
       <workItem from="1780193021315" duration="2073000" />
       <workItem from="1780197098090" duration="388000" />
       <workItem from="1780255067163" duration="102000" />
-      <workItem from="1780271323372" duration="1108000" />
+      <workItem from="1780271323372" duration="1368000" />
+      <workItem from="1781003516391" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="Added myself list realization">
       <option name="closed" value="true" />
@@ -299,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780195605620</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Course project">
+      <option name="closed" value="true" />
+      <created>1780273895678</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1780273895678</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +335,7 @@
     <MESSAGE value="migrate to HashMap storage with composite key and functional queries&#10;&#10;- add UserIdentifier as composite key (id + name) with equals/hashCode&#10;- replace HashSet&lt;User&gt; with HashMap&lt;UserIdentifier, User&gt; in UserRegistry&#10;- replace id/name fields in User with single UserIdentifier reference&#10;- add getUserList() returning LinkedList&lt;User&gt;&#10;- add getInOrder(Comparator&lt;User&gt;) for lambda-based sorting&#10;- add getFiltered(Predicate&lt;User&gt;) for lambda-based filtering&#10;- extend demo menu with items 8-10 to showcase new methods" />
     <MESSAGE value="practice 12&#10;added package logging wich can generate and filter .log files" />
     <MESSAGE value="practice 13&#10;improved user login\register system by adding logging file which stores a users" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice 13&#10;improved user login\register system by adding logging file which stores a users" />
+    <MESSAGE value="Course project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course project" />
   </component>
 </project>

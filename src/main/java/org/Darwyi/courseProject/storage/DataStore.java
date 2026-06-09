@@ -42,6 +42,7 @@ public final class DataStore {
     public void addCourse(Course c){ courses.put(c.getId(), c); }
     public void addEnrollment(Enrollment e){ enrollments.put(e.getId(), e); }
     public void addCertificate(Certificate c){ certificates.put(c.getId(), c); }
+    public void removeEnrollment(long enrollmentId){ enrollments.remove(enrollmentId); }
 
     public Enrollment findEnrollment(long studentId, long courseId){
         for (Enrollment e : enrollments.values())

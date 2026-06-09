@@ -22,9 +22,9 @@ public class Demo {
     public static void run(LearningService service, StatisticsCollector stats, NotificationService notifications){
 
         Admin admin = service.registerAdmin("admin", "admin123", "Адміністратор Системи");
-        Teacher teacher = service.registerTeacher("soroka", "teach123", "Ігор Сорока");
+        Teacher teacher = service.registerTeacher("jhndoe", "teach123", "John Doe");
         Student s1 = service.registerStudent("krasov", "stud123", "Євгеній Красовський");
-        Student s2 = service.registerStudent("petrenko", "stud123", "Олена Петренко");
+        Student s2 = service.registerStudent("stud", "stud123", "Студ");
         System.out.println("Поліморфізм ролей:");
         System.out.println("  " + admin.getRole().label() + " — " + admin.permissions());
         System.out.println("  " + teacher.getRole().label() + " — " + teacher.permissions());

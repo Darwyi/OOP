@@ -25,7 +25,7 @@ public class NotificationService implements EventListener {
                     "Курс активовано: " + event.getMessage());
             case CERTIFICATE_ISSUED -> push(event.getActorId(),
                     "Вітаємо! Видано " + event.getMessage());
-            default -> { /* інші події сповіщень не породжують */ }
+            default -> { }
         }
     }
 

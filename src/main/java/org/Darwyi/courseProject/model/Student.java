@@ -19,4 +19,5 @@ public class Student extends User {
 
     public Set<Long> getEnrolledCourseIds(){ return Collections.unmodifiableSet(enrolledCourseIds); }
     public void addCourse(long courseId){ enrolledCourseIds.add(courseId); }
+    public void removeCourse(long courseId){ enrolledCourseIds.remove(courseId); }
 }

@@ -9,7 +9,9 @@ public enum EventType {
     LECTURE_COMPLETED("Завершення лекції"),
     TEST_PASSED("Тест складено"),
     TEST_FAILED("Тест не складено"),
-    CERTIFICATE_ISSUED("Видача сертифіката");
+    CERTIFICATE_ISSUED("Видача сертифіката"),
+    STUDENT_WITHDRAWN("Скасування запису"),
+    COURSE_RATED("Оцінювання курсу");
 
     private final String label;
     EventType(String label){ this.label = label; }

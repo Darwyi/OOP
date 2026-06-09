@@ -19,7 +19,6 @@ public class StatisticsCollector implements EventListener {
 
     public String report(){
         StringBuilder sb = new StringBuilder();
-        sb.append("=== Статистика подій ===\n");
         sb.append("Усього подій: ").append(total).append('\n');
         for (EventType t : EventType.values()){
             int c = counts.getOrDefault(t, 0);

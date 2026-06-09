@@ -192,6 +192,47 @@ public class LearningService {
         return sum / e.getTestScores().size();
     }
 
+    public void withdraw(long studentId, long courseId){
+        Enrollment e = requireEnrollment(studentId, courseId);
+        Course c = requireCourse(courseId);
+        store.removeEnrollment(e.getId());
+        c.removeStudent(studentId);
+        requireStudent(studentId).removeCourse(courseId);
+        events.publish(new Event(EventType.STUDENT_WITHDRAWN, c.getTitle(), c.getId(), studentId));
+    }
+
+    public void rateCourse(long studentId, long courseId, int stars){
+        if (stars < 1 || stars > 5)
+            throw new ValidationException("Оцінка має бути в діапазоні від 1 до 5");
+        Enrollment e = requireEnrollment(studentId, courseId);
+        Course c = requireCourse(courseId);
+        e.setRating(stars);
+        events.publish(new Event(EventType.COURSE_RATED,
+                "%s (%d/5)".formatted(c.getTitle(), stars), courseId, studentId));
+    }
+
+    public double averageRating(long courseId){
+        requireCourse(courseId);
+        int sum = 0, n = 0;
+        for (Enrollment e : store.getEnrollments().values())
+            if (e.getCourseId() == courseId && e.getRating() > 0){ sum += e.getRating(); n++; }
+        return n == 0 ? 0.0 : (double) sum / n;
+    }
+
+    public double completionRate(long courseId){
+        requireCourse(courseId);
+        int total = 0, done = 0;
+        for (Enrollment e : store.getEnrollments().values())
+            if (e.getCourseId() == courseId){ total++; if (e.isCertificateIssued()) done++; }
+        return total == 0 ? 0.0 : done * 100.0 / total;
+    }
+
+    public List<Course> topCoursesByEnrollment(int limit){
+        List<Course> all = new ArrayList<>(store.getCourses().values());
+        all.sort((a, b) -> Integer.compare(b.studentCount(), a.studentCount()));
+        return all.size() > limit ? new ArrayList<>(all.subList(0, limit)) : all;
+    }
+
     public List<Course> activeCourses(){
         List<Course> res = new ArrayList<>();
         for (Course c : store.getCourses().values()) if (c.isActive()) res.add(c);

@@ -82,6 +82,7 @@ public class ConsoleUI {
                   3. Активувати курс
                   4. Архівувати курс
                   5. Список усіх курсів
+                  6. Аналітика курсів
                   0. Назад""");
         switch (readInt("Вибір: ")){
             case 1 -> safe(() -> {
@@ -103,6 +104,7 @@ public class ConsoleUI {
                 System.out.println("Курс архівовано");
             });
             case 5 -> listCourses(service.store().getCourses().values());
+            case 6 -> printAnalytics();
             case 0 -> { }
             default -> System.out.println("Невідома команда");
         }
@@ -202,6 +204,8 @@ public class ConsoleUI {
                   7. Мій прогрес
                   8. Мої сповіщення
                   9. Мої сертифікати
+                 10. Скасувати запис на курс
+                 11. Оцінити курс (1-5)
                   0. Назад""");
         switch (readInt("Вибір: ")){
             case 1 -> listCourses(service.activeCourses());
@@ -236,6 +240,16 @@ public class ConsoleUI {
                 if (certs.isEmpty()) System.out.println("Сертифікатів немає");
                 else certs.forEach(c -> System.out.println("  " + c));
             }
+            case 10 -> safe(() -> {
+                service.withdraw(sid, readLong("ID курсу: "));
+                System.out.println("Запис на курс скасовано");
+            });
+            case 11 -> safe(() -> {
+                long cid = readLong("ID курсу: ");
+                int stars = readInt("Оцінка (1-5): ");
+                service.rateCourse(sid, cid, stars);
+                System.out.println("Дякуємо за оцінку!");
+            });
             case 0 -> { }
             default -> System.out.println("Невідома команда");
         }
@@ -266,6 +280,20 @@ public class ConsoleUI {
     private void listCourses(Collection<Course> courses){
         if (courses.isEmpty()) System.out.println("Курсів немає");
         else for (Course c : courses) System.out.println("  " + c);
+    }
+
+    private void printAnalytics(){
+        Collection<Course> courses = service.store().getCourses().values();
+        if (courses.isEmpty()) { System.out.println("Курсів немає"); return; }
+        System.out.println("Аналітика курсів:");
+        for (Course c : courses) {
+            System.out.printf("  #%d %s — записів: %d, завершення: %.0f%%, рейтинг: %.1f%n",
+                c.getId(), c.getTitle(), c.studentCount(),
+                service.completionRate(c.getId()), service.averageRating(c.getId()));
+        }
+        List<Course> top = service.topCoursesByEnrollment(1);
+        if (!top.isEmpty())
+            System.out.println("Найпопулярніший курс: " + top.get(0).getTitle());
     }
 
     private int readInt(String prompt){

@@ -19,7 +19,6 @@ public class Question implements Serializable {
     }
 
     public String getText(){ return text; }
-    /** Незмінне представлення списку варіантів відповіді. */
     public List<String> getOptions(){ return Collections.unmodifiableList(options); }
     public boolean isCorrect(int index){ return index == correctIndex; }
 }

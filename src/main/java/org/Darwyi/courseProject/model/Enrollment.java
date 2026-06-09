@@ -16,6 +16,7 @@ public class Enrollment implements Serializable {
     private final LinkedHashSet<Long> completedMaterialIds = new LinkedHashSet<>();
     private final HashMap<Long, Integer> testScores = new HashMap<>();
     private boolean certificateIssued = false;
+    private int rating = 0;
 
     public Enrollment(long id, long studentId, long courseId){
         this.id = id;
@@ -30,10 +31,13 @@ public class Enrollment implements Serializable {
     public Map<Long, Integer> getTestScores(){ return Collections.unmodifiableMap(testScores); }
     public boolean isCertificateIssued(){ return certificateIssued; }
     public void setCertificateIssued(boolean v){ certificateIssued = v; }
+    public int getRating(){ return rating; }
+    public void setRating(int r){ rating = r; }
 
     public void markCompleted(long materialId){ completedMaterialIds.add(materialId); }
     public void recordScore(long materialId, int score){ testScores.put(materialId, score); }
 
+    /** Відсоток проходження курсу за кількістю пройдених матеріалів. */
     public int progressPercent(int totalMaterials){
         if (totalMaterials == 0) return 0;
         return (int) Math.round(completedMaterialIds.size() * 100.0 / totalMaterials);
